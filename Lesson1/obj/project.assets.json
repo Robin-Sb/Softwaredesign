@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Robin\\Documents\\Softwaredesign\\Project\\Softwaredesign\\Lesson1\\Lesson1.csproj",
+      "projectUniqueName": "C:\\Users\\Robin\\Documents\\Softwaredesign\\Softwaredesign\\Lesson1\\Lesson1.csproj",
       "projectName": "Lesson1",
-      "projectPath": "C:\\Users\\Robin\\Documents\\Softwaredesign\\Project\\Softwaredesign\\Lesson1\\Lesson1.csproj",
+      "projectPath": "C:\\Users\\Robin\\Documents\\Softwaredesign\\Softwaredesign\\Lesson1\\Lesson1.csproj",
       "packagesPath": "C:\\Users\\Robin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Robin\\Documents\\Softwaredesign\\Project\\Softwaredesign\\Lesson1\\obj\\",
+      "outputPath": "C:\\Users\\Robin\\Documents\\Softwaredesign\\Softwaredesign\\Lesson1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -704,7 +704,7 @@
         "dependencies": {
           "Microsoft.NETCore.App": {
             "target": "Package",
-            "version": "2.0",
+            "version": "[2.0.0, )",
             "autoReferenced": true
           }
         },
