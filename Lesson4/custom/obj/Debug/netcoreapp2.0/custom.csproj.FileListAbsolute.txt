@@ -1,0 +1,10 @@
+C:\Users\Robin\Documents\Softwaredesign\Softwaredesign\Lesson4\custom\bin\Debug\netcoreapp2.0\custom.deps.json
+C:\Users\Robin\Documents\Softwaredesign\Softwaredesign\Lesson4\custom\bin\Debug\netcoreapp2.0\custom.runtimeconfig.json
+C:\Users\Robin\Documents\Softwaredesign\Softwaredesign\Lesson4\custom\bin\Debug\netcoreapp2.0\custom.runtimeconfig.dev.json
+C:\Users\Robin\Documents\Softwaredesign\Softwaredesign\Lesson4\custom\bin\Debug\netcoreapp2.0\custom.dll
+C:\Users\Robin\Documents\Softwaredesign\Softwaredesign\Lesson4\custom\bin\Debug\netcoreapp2.0\custom.pdb
+C:\Users\Robin\Documents\Softwaredesign\Softwaredesign\Lesson4\custom\obj\Debug\netcoreapp2.0\custom.csproj.CoreCompileInputs.cache
+C:\Users\Robin\Documents\Softwaredesign\Softwaredesign\Lesson4\custom\obj\Debug\netcoreapp2.0\custom.AssemblyInfoInputs.cache
+C:\Users\Robin\Documents\Softwaredesign\Softwaredesign\Lesson4\custom\obj\Debug\netcoreapp2.0\custom.AssemblyInfo.cs
+C:\Users\Robin\Documents\Softwaredesign\Softwaredesign\Lesson4\custom\obj\Debug\netcoreapp2.0\custom.dll
+C:\Users\Robin\Documents\Softwaredesign\Softwaredesign\Lesson4\custom\obj\Debug\netcoreapp2.0\custom.pdb

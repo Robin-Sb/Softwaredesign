@@ -1,0 +1,10 @@
+C:\Users\Robin\Documents\Softwaredesign\Softwaredesign\Lesson4\lesson3_debugging\bin\Debug\netcoreapp2.0\lesson3_debugging.deps.json
+C:\Users\Robin\Documents\Softwaredesign\Softwaredesign\Lesson4\lesson3_debugging\bin\Debug\netcoreapp2.0\lesson3_debugging.runtimeconfig.json
+C:\Users\Robin\Documents\Softwaredesign\Softwaredesign\Lesson4\lesson3_debugging\bin\Debug\netcoreapp2.0\lesson3_debugging.runtimeconfig.dev.json
+C:\Users\Robin\Documents\Softwaredesign\Softwaredesign\Lesson4\lesson3_debugging\bin\Debug\netcoreapp2.0\lesson3_debugging.dll
+C:\Users\Robin\Documents\Softwaredesign\Softwaredesign\Lesson4\lesson3_debugging\bin\Debug\netcoreapp2.0\lesson3_debugging.pdb
+C:\Users\Robin\Documents\Softwaredesign\Softwaredesign\Lesson4\lesson3_debugging\obj\Debug\netcoreapp2.0\lesson3_debugging.csproj.CoreCompileInputs.cache
+C:\Users\Robin\Documents\Softwaredesign\Softwaredesign\Lesson4\lesson3_debugging\obj\Debug\netcoreapp2.0\lesson3_debugging.AssemblyInfoInputs.cache
+C:\Users\Robin\Documents\Softwaredesign\Softwaredesign\Lesson4\lesson3_debugging\obj\Debug\netcoreapp2.0\lesson3_debugging.AssemblyInfo.cs
+C:\Users\Robin\Documents\Softwaredesign\Softwaredesign\Lesson4\lesson3_debugging\obj\Debug\netcoreapp2.0\lesson3_debugging.dll
+C:\Users\Robin\Documents\Softwaredesign\Softwaredesign\Lesson4\lesson3_debugging\obj\Debug\netcoreapp2.0\lesson3_debugging.pdb

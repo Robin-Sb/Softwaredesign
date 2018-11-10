@@ -9,7 +9,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/bin/Debug/netecoreapp2.0/Lesson4.dll",
+            "program": "${workspaceFolder}/bin/Debug/netcoreapp2.0/lesson3_debugging.dll",
             "args": [],
             "cwd": "${workspaceFolder}",
             "console": "internalConsole",
