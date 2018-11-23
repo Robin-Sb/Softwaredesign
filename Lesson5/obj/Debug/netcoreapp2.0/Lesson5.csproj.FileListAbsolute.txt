@@ -8,3 +8,4 @@ C:\Users\Robin\Documents\Softwaredesign\Softwaredesign\Lesson5\bin\Debug\netcore
 C:\Users\Robin\Documents\Softwaredesign\Softwaredesign\Lesson5\bin\Debug\netcoreapp2.0\Lesson5.pdb
 C:\Users\Robin\Documents\Softwaredesign\Softwaredesign\Lesson5\obj\Debug\netcoreapp2.0\Lesson5.dll
 C:\Users\Robin\Documents\Softwaredesign\Softwaredesign\Lesson5\obj\Debug\netcoreapp2.0\Lesson5.pdb
+C:\Users\Robin\Documents\Softwaredesign\Softwaredesign\Lesson5\obj\Debug\netcoreapp2.0\Lesson5.csprojAssemblyReference.cache
