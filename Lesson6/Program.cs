@@ -67,7 +67,7 @@ namespace Lesson6
 
                     } else 
                     {
-                        Console.WriteLine("You answered all questions! You may still add new questions.");
+                        Console.WriteLine("You answered every question! You may still add new questions.");
                     }
                 } else if (selectedAction == "a") 
                 {
