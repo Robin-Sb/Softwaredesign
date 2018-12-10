@@ -1,4 +1,8 @@
-﻿using System;
+/* Mögliche Änderungsvorschläge: 
+- Die Subklassen genauer bennennen. Z.b. Nicht nur "Binary" sondern vielleicht "QuizBinary", dann wird direkt klar, dass es zu "Quizelement" gehört.
+- Die Methode "NewQuestion" vielleicht in "AddNewQuestion" umbenennen --> Funktion der Klasse wird dann eher deutlich.
+*/
+using System;
 using System.Collections.Generic;
 
 namespace Lesson7
