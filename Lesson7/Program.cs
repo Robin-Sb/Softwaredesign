@@ -4,6 +4,8 @@
 */
 using System;
 using System.Collections.Generic;
+using Newtonsoft.Json;
+using System.IO;
 
 namespace Lesson7
 {
@@ -50,6 +52,10 @@ namespace Lesson7
 
         public static void CreateQuizElements() 
         {
+            Single singleElement = JsonConvert.DeserializeObject<Single>(File.ReadAllText(
+                @"C:\Users\Robin\Documents\Softwaredesign\Project\Softwaredesign\Lesson7\quiz.json"));
+            quizElementList.Add(singleElement);  
+
             quizElementList.Add(new Multi("If you pick an answer to this question at random, what is the chance that you will be correct?", new List<AnswerClass>{
                 new AnswerClass("Can't be answered because we don't know how many questions are correct", false),
                 new AnswerClass("It's 50%, either it is correct or it is not", true),
@@ -66,6 +72,7 @@ namespace Lesson7
             quizElementList.Add(new Binary("Can 1 trillion lions win against the sun if they attack at night?", true));
             quizElementList.Add(new Free("Who is currently the best president of the united states?", "Donald Trump"));
         }
+
         public static void AnswerQuestion()
         {
             QuizElement quizElement = quizElementList[index];
@@ -113,11 +120,14 @@ namespace Lesson7
             Console.WriteLine("Your question was successfully added.");
         }
 
-        public static QuizElement AddFreeTextQuestion(string question) {
+        public static QuizElement AddFreeTextQuestion(string question) 
+        {
             Console.WriteLine("Please insert the correct answer");
             return new Free(question, Console.ReadLine());
         }
-        public static QuizElement AddBinaryQuestion(string question) {
+
+        public static QuizElement AddBinaryQuestion(string question) 
+        {
             Console.WriteLine("Type y if your question is correct and n if it is not");
             string input = Console.ReadLine();
             bool isCorrect = false;
@@ -127,12 +137,16 @@ namespace Lesson7
             }
             return new Binary(question, isCorrect);
         }
-        public static QuizElement AddGuessQuestion(string question) {
+
+        public static QuizElement AddGuessQuestion(string question) 
+        {
             Console.WriteLine("Please insert the correct number");
             int number = Int32.Parse(Console.ReadLine());
             return new Guess(question, number);
         }
-        public static QuizElement AddMultiQuestion(string question) {
+
+        public static QuizElement AddMultiQuestion(string question) 
+        {
             Console.WriteLine("How many possible answers do you want?");
             int howManyAnswers = Int32.Parse(Console.ReadLine());
             List <AnswerClass> userAnswers = new List<AnswerClass>();
@@ -153,7 +167,9 @@ namespace Lesson7
             }
             return new Multi(question, userAnswers);
         }
-        public static QuizElement AddSingleQuestion(string question) {
+
+        public static QuizElement AddSingleQuestion(string question) 
+        {
             Console.WriteLine("How many possible answers do you want?");
             int howManyAnswers = Int32.Parse(Console.ReadLine());
             List <AnswerClass> userAnswers = new List<AnswerClass>();
@@ -166,7 +182,16 @@ namespace Lesson7
                 Console.WriteLine("Please insert an answer");
                 userAnswers.Add(new AnswerClass(Console.ReadLine(), false));
             }
-            return new Single(question, userAnswers);
+            QuizElement singleElement = new Single(question, userAnswers);
+            serializeQuizElementToJson(singleElement);
+            return singleElement;
+        } 
+        public static void serializeQuizElementToJson (QuizElement quizElement) 
+        {
+            // JsonSerializer serializer = new JsonSerializer();
+            string jsonQuestion = JsonConvert.SerializeObject(quizElement, Formatting.Indented);
+            System.IO.File.WriteAllText(@"C:\Users\Robin\Documents\Softwaredesign\Project\Softwaredesign\Lesson7\quiz.json", jsonQuestion);
+            Console.WriteLine(jsonQuestion);
         }
     }
 }

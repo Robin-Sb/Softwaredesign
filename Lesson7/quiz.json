@@ -1,0 +1,22 @@
+{
+  "answers": [
+    {
+      "text": "baby don't hurt me ",
+      "isCorrect": true
+    },
+    {
+      "text": "don't hurt me",
+      "isCorrect": false
+    },
+    {
+      "text": "no more",
+      "isCorrect": false
+    },
+    {
+      "text": "WHAT IS LIFE",
+      "isCorrect": false
+    }
+  ],
+  "question": "what is life",
+  "callToAction": "Type the number corresponding to the correct answer"
+}
