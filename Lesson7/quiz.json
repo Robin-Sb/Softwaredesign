@@ -1,22 +1,76 @@
-{
-  "answers": [
-    {
-      "text": "baby don't hurt me ",
-      "isCorrect": true
-    },
-    {
-      "text": "don't hurt me",
-      "isCorrect": false
-    },
-    {
-      "text": "no more",
-      "isCorrect": false
-    },
-    {
-      "text": "WHAT IS LIFE",
-      "isCorrect": false
-    }
-  ],
-  "question": "what is life",
-  "callToAction": "Type the number corresponding to the correct answer"
-}
+[
+  {
+    "$type": "Lesson7.Multi, Lesson7",
+    "answers": [
+      {
+        "$type": "Lesson7.AnswerClass, Lesson7",
+        "text": "Can't be answered because we don't know how many questions are correct",
+        "isCorrect": false
+      },
+      {
+        "$type": "Lesson7.AnswerClass, Lesson7",
+        "text": "It's 50%, either it is correct or it is not",
+        "isCorrect": true
+      },
+      {
+        "$type": "Lesson7.AnswerClass, Lesson7",
+        "text": "It's obviously 25%",
+        "isCorrect": false
+      },
+      {
+        "$type": "Lesson7.AnswerClass, Lesson7",
+        "text": "It's 100% if I believe in myself",
+        "isCorrect": true
+      }
+    ],
+    "question": "If you pick an answer to this question at random, what is the chance that you will be correct?",
+    "callToAction": "Type every number corresponding to the correct answer, e.g. 3 5 1"
+  },
+  {
+    "$type": "Lesson7.Single, Lesson7",
+    "answers": [
+      {
+        "$type": "Lesson7.AnswerClass, Lesson7",
+        "text": "Bjarne Stroustrup",
+        "isCorrect": false
+      },
+      {
+        "$type": "Lesson7.AnswerClass, Lesson7",
+        "text": "Linus Torwalds",
+        "isCorrect": false
+      },
+      {
+        "$type": "Lesson7.AnswerClass, Lesson7",
+        "text": "James Gosling",
+        "isCorrect": false
+      },
+      {
+        "$type": "Lesson7.AnswerClass, Lesson7",
+        "text": "Terry Davis",
+        "isCorrect": true
+      }
+    ],
+    "question": "Who is the worlds smartest programmer?",
+    "callToAction": "Type the number corresponding to the correct answer"
+  },
+  {
+    "$type": "Lesson7.Guess, Lesson7",
+    "min": 23.400000000000002,
+    "max": 28.6,
+    "answer": 26,
+    "question": "What is the square root of 676",
+    "callToAction": "Guess the correct number!"
+  },
+  {
+    "$type": "Lesson7.Binary, Lesson7",
+    "truth": true,
+    "question": "Can 1 trillion lions win against the sun if they attack at night?",
+    "callToAction": "Type y if you think the question is correct, type n if you think it is not."
+  },
+  {
+    "$type": "Lesson7.Free, Lesson7",
+    "answerWord": "Donald Trump",
+    "question": "Who is currently the best president of the united states?",
+    "callToAction": "Type the correct word!"
+  }
+]

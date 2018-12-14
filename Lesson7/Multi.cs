@@ -10,7 +10,7 @@ namespace Lesson7
             this.answers = answers;
             this.callToAction = "Type every number corresponding to the correct answer, e.g. 3 5 1";
         }
-        List <AnswerClass> answers;
+        public List <AnswerClass> answers;
         public override void Show () 
         {
             Console.WriteLine(question);

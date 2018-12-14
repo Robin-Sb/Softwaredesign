@@ -1,11 +1,9 @@
-/* Mögliche Änderungsvorschläge: 
-- Die Subklassen genauer bennennen. Z.b. Nicht nur "Binary" sondern vielleicht "QuizBinary", dann wird direkt klar, dass es zu "Quizelement" gehört.
-- Die Methode "NewQuestion" vielleicht in "AddNewQuestion" umbenennen --> Funktion der Klasse wird dann eher deutlich.
-*/
-using System;
+﻿using System;
 using System.Collections.Generic;
 using Newtonsoft.Json;
 using System.IO;
+using System.Threading;
+
 
 namespace Lesson7
 {
@@ -14,12 +12,20 @@ namespace Lesson7
         static public int highscore;
         static public int answeredQuestions;
         public static int index = 0;
-        static public List<QuizElement> quizElementList = new List<QuizElement>();
+        static public List<QuizElement> quizElementList;
         public string userQuestion;
         public List<AnswerClass> userAnswer;
+        public static JsonPersistence jsonPersistence = new JsonPersistence();
+
         static void Main(string[] args)
         {
-            CreateQuizElements();
+            quizElementList = jsonPersistence.deserializeQuizElements();
+            if (quizElementList == null)
+            {
+                quizElementList = new List<QuizElement>();
+            }
+
+            quizElementList.Shuffle();
 
             while(true) {
                 Console.WriteLine("Please select what you want to do:");
@@ -32,6 +38,7 @@ namespace Lesson7
                 if (inputString == "1") 
                 {
                     NewQuestion();
+                    quizElementList = jsonPersistence.deserializeQuizElements();
                 } else if (inputString == "2")
                 {
                     if(quizElementList.Count > index) 
@@ -50,29 +57,6 @@ namespace Lesson7
             }
         }
 
-        public static void CreateQuizElements() 
-        {
-            Single singleElement = JsonConvert.DeserializeObject<Single>(File.ReadAllText(
-                @"C:\Users\Robin\Documents\Softwaredesign\Project\Softwaredesign\Lesson7\quiz.json"));
-            quizElementList.Add(singleElement);  
-
-            quizElementList.Add(new Multi("If you pick an answer to this question at random, what is the chance that you will be correct?", new List<AnswerClass>{
-                new AnswerClass("Can't be answered because we don't know how many questions are correct", false),
-                new AnswerClass("It's 50%, either it is correct or it is not", true),
-                new AnswerClass("It's obviously 25%", false),
-                new AnswerClass("It's 100% if I believe in myself", true),
-            }));
-            quizElementList.Add(new Single("Who is the worlds smartest programmer?", new List<AnswerClass>{
-                new AnswerClass("Terry Davis", true), 
-                new AnswerClass("Linus Torwalds", false), 
-                new AnswerClass("James Gosling", false), 
-                new AnswerClass("Bjarne Stroustrup", false) 
-            }));
-            quizElementList.Add(new Guess("What is the square root of 676", 26));
-            quizElementList.Add(new Binary("Can 1 trillion lions win against the sun if they attack at night?", true));
-            quizElementList.Add(new Free("Who is currently the best president of the united states?", "Donald Trump"));
-        }
-
         public static void AnswerQuestion()
         {
             QuizElement quizElement = quizElementList[index];
@@ -88,6 +72,7 @@ namespace Lesson7
                 Console.WriteLine("Your answer was sadly incorrect.");
             }
             answeredQuestions++;
+            Console.WriteLine("You answered " + highscore + " out of " + answeredQuestions + " correctly.");
         }
         public static void NewQuestion()
         {
@@ -117,6 +102,7 @@ namespace Lesson7
                 default: Console.WriteLine("Your input was not valid.");
                     break;
             }
+            jsonPersistence.serializeQuizElementToJson(quizElementList);
             Console.WriteLine("Your question was successfully added.");
         }
 
@@ -150,7 +136,6 @@ namespace Lesson7
             Console.WriteLine("How many possible answers do you want?");
             int howManyAnswers = Int32.Parse(Console.ReadLine());
             List <AnswerClass> userAnswers = new List<AnswerClass>();
-            AnswerClass userAnswer = new AnswerClass();
             bool isCorrect;
             string text;
             for (int i = 0; i < howManyAnswers; i++)
@@ -176,22 +161,40 @@ namespace Lesson7
 
             Console.WriteLine("Please insert the correct answer");
             userAnswers.Add(new AnswerClass(Console.ReadLine(), true));
-
-            for(int i = 0; i < howManyAnswers; i++) 
+            for(int i = 0; i < howManyAnswers - 1; i++) 
             {
                 Console.WriteLine("Please insert an answer");
                 userAnswers.Add(new AnswerClass(Console.ReadLine(), false));
             }
+            userAnswers.Shuffle();
             QuizElement singleElement = new Single(question, userAnswers);
-            serializeQuizElementToJson(singleElement);
             return singleElement;
         } 
-        public static void serializeQuizElementToJson (QuizElement quizElement) 
+
+    }
+    public static class ThreadSafeRandom
+    {
+        [ThreadStatic] private static Random Local;
+
+        public static Random ThisThreadsRandom
         {
-            // JsonSerializer serializer = new JsonSerializer();
-            string jsonQuestion = JsonConvert.SerializeObject(quizElement, Formatting.Indented);
-            System.IO.File.WriteAllText(@"C:\Users\Robin\Documents\Softwaredesign\Project\Softwaredesign\Lesson7\quiz.json", jsonQuestion);
-            Console.WriteLine(jsonQuestion);
+            get { return Local ?? (Local = new Random(unchecked(Environment.TickCount * 31 + Thread.CurrentThread.ManagedThreadId))); }
+        }
+    }
+
+    static class MyExtensions
+    {
+        public static void Shuffle<T>(this IList<T> list)
+        {
+        int n = list.Count;
+        while (n > 1)
+        {
+            n--;
+            int k = ThreadSafeRandom.ThisThreadsRandom.Next(n + 1);
+            T value = list[k];
+            list[k] = list[n];
+            list[n] = value;
+        }
         }
     }
 }
