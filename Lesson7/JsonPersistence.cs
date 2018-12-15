@@ -21,9 +21,7 @@ namespace Lesson7
 
         public List<QuizElement> deserializeQuizElements()
         {
-            // List<QuizElement> quizElements = new List<QuizElement>();
             List<QuizElement> quizElements = JsonConvert.DeserializeObject<List<QuizElement>>(File.ReadAllText(@"..\Lesson7\quiz.json"), settings);
-            // quizElements.Add(quizElement);  
             return quizElements;
         }
     }
