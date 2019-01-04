@@ -1,0 +1,11 @@
+C:\Users\Robin\Documents\Softwaredesign\Softwaredesign\tree\bin\Debug\netcoreapp2.1\tree.deps.json
+C:\Users\Robin\Documents\Softwaredesign\Softwaredesign\tree\bin\Debug\netcoreapp2.1\tree.runtimeconfig.json
+C:\Users\Robin\Documents\Softwaredesign\Softwaredesign\tree\bin\Debug\netcoreapp2.1\tree.runtimeconfig.dev.json
+C:\Users\Robin\Documents\Softwaredesign\Softwaredesign\tree\bin\Debug\netcoreapp2.1\tree.dll
+C:\Users\Robin\Documents\Softwaredesign\Softwaredesign\tree\bin\Debug\netcoreapp2.1\tree.pdb
+C:\Users\Robin\Documents\Softwaredesign\Softwaredesign\tree\obj\Debug\netcoreapp2.1\tree.csprojAssemblyReference.cache
+C:\Users\Robin\Documents\Softwaredesign\Softwaredesign\tree\obj\Debug\netcoreapp2.1\tree.csproj.CoreCompileInputs.cache
+C:\Users\Robin\Documents\Softwaredesign\Softwaredesign\tree\obj\Debug\netcoreapp2.1\tree.AssemblyInfoInputs.cache
+C:\Users\Robin\Documents\Softwaredesign\Softwaredesign\tree\obj\Debug\netcoreapp2.1\tree.AssemblyInfo.cs
+C:\Users\Robin\Documents\Softwaredesign\Softwaredesign\tree\obj\Debug\netcoreapp2.1\tree.dll
+C:\Users\Robin\Documents\Softwaredesign\Softwaredesign\tree\obj\Debug\netcoreapp2.1\tree.pdb
