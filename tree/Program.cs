@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace tree
 {
@@ -28,7 +29,13 @@ namespace tree
             child1.RemoveChild(grand12);
 
             root.PrintTree(0);
-            root.PrintTree(0);
+            root.SetFirstTime();
+            root.ForEachNode(AppendFunction);
+        }
+
+        public static void AppendFunction(string node)
+        {
+            Console.Write(node + " | ");
         }
     }
 }

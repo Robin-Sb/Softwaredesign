@@ -18,7 +18,6 @@ namespace tree
             Tree<T> node = new Tree<T>(element);
             return node;
         }
-
         public void AppendChild(Tree<T> child)
         {
             child.parent = this.type;
@@ -29,7 +28,7 @@ namespace tree
             children.Remove(child);
         }
 
-        public void PrintTree(int generation) 
+        public void PrintTree(int generation = 0) 
         {
             if (calledFirstTime)
             {
@@ -44,7 +43,27 @@ namespace tree
                 children[i].PrintTree(generation);
             }
         }
-        
+
+        public void ForEachNode(Action<string> function) 
+        {
+            if (calledFirstTime)
+            {
+                Console.Write(this.ToString()  + " | ");
+            }
+
+            calledFirstTime = false;
+
+            for (int i = 0; i < children.Count; i++) 
+            {
+                Program.AppendFunction(children[i].ToString());
+                children[i].ForEachNode(Program.AppendFunction);
+            }
+        }
+
+        public void SetFirstTime() {
+            calledFirstTime = true;
+        }
+
         public override string ToString() 
         {
             return this.type.ToString();
