@@ -55,7 +55,7 @@ namespace tree
 
             for (int i = 0; i < children.Count; i++) 
             {
-                Program.AppendFunction(children[i].ToString());
+                function(children[i].ToString());
                 children[i].ForEachNode(Program.AppendFunction);
             }
         }
