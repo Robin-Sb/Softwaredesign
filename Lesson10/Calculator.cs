@@ -5,13 +5,20 @@ namespace Lesson10
     delegate void ReportProgressMethod(int progress);
     class Calculator 
     {
-        public static void CalculateSomething () 
+        public Calculator () 
         {
-            Calculator calc = new Calculator();
-            ReportProgressMethod progressReporter = new ReportProgressMethod(calc.ProgressMethod);
+            ProgressMethod += delegate(int progress) 
+            {
+                Console.WriteLine(progress + "%");
+            };
+            ProgressMethod += EmitPoints;
+        }
+        public void CalculateSomething () 
+        {
             int iterations = 1000;
             int tenthIterations = iterations / 10;
-            int percentage = 0;
+            int addToIterator = tenthIterations;
+            int percentage = 10;
             bool isDividable;
             for (int i = 0; i < iterations; i++) 
             {
@@ -26,16 +33,21 @@ namespace Lesson10
 
                 if (!isDividable)
                 {
-                    Console.WriteLine(i.ToString() + " is a prime number.");
+                    // Console.WriteLine(i.ToString() + " is a prime number.");
                 }
 
                 if (i == tenthIterations)
                 {
-                    progressReporter(percentage);
-                    tenthIterations += tenthIterations;
+                    ProgressMethod(percentage);
+                    tenthIterations += addToIterator;
                     percentage += 10;
                 }
             }
+        }
+
+        public void EmitPoints(int progress)
+        {
+            Console.WriteLine(progress);
         }
         public event ReportProgressMethod ProgressMethod;
     }

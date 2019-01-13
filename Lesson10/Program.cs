@@ -6,7 +6,8 @@ namespace Lesson10
     {
         static void Main(string[] args)
         {
-            Calculator.CalculateSomething();
+            Calculator calc = new Calculator();
+            calc.CalculateSomething();
         }
     }
 }
