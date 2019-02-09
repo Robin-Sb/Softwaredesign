@@ -1,0 +1,148 @@
+[
+  {
+    "SortingOrder": 21,
+    "AtPeriod": 12,
+    "Size": 0,
+    "Name": "Spieleentwicklung",
+    "Semesters": [],
+    "Lecturer": {
+      "FirstName": "Eric",
+      "Id": 3,
+      "LastName": "Schroeder",
+      "FullName": "Eric Schroeder"
+    },
+    "Requirements": [
+      4,
+      3,
+      2,
+      5,
+      0
+    ]
+  },
+  {
+    "SortingOrder": 13,
+    "AtPeriod": 8,
+    "Size": 0,
+    "Name": "Introduction to Deep Learning",
+    "Semesters": [],
+    "Lecturer": {
+      "FirstName": "Melania",
+      "Id": 12,
+      "LastName": "Dolgorukova",
+      "FullName": "Melania Dolgorukova"
+    },
+    "Requirements": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "SortingOrder": 9,
+    "AtPeriod": 17,
+    "Size": 0,
+    "Name": "Introduction to Deep Learning",
+    "Semesters": [],
+    "Lecturer": {
+      "FirstName": "Melania",
+      "Id": 12,
+      "LastName": "Dolgorukova",
+      "FullName": "Melania Dolgorukova"
+    },
+    "Requirements": [
+      4,
+      3,
+      2,
+      5,
+      0
+    ]
+  },
+  {
+    "SortingOrder": 15,
+    "AtPeriod": 20,
+    "Size": 0,
+    "Name": "Introduction to Deep Learning II",
+    "Semesters": [],
+    "Lecturer": {
+      "FirstName": "Melania",
+      "Id": 12,
+      "LastName": "Dolgorukova",
+      "FullName": "Melania Dolgorukova"
+    },
+    "Requirements": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "SortingOrder": 20,
+    "AtPeriod": 22,
+    "Size": 0,
+    "Name": "Livemix und Sounddesign",
+    "Semesters": [],
+    "Lecturer": {
+      "FirstName": "Mario",
+      "Id": 15,
+      "LastName": "Hoffmann",
+      "FullName": "Mario Hoffmann"
+    },
+    "Requirements": [
+      6
+    ]
+  },
+  {
+    "SortingOrder": 13,
+    "AtPeriod": 8,
+    "Size": 0,
+    "Name": "Photographie",
+    "Semesters": [],
+    "Lecturer": {
+      "FirstName": "Markus",
+      "Id": 6,
+      "LastName": "Mehler",
+      "FullName": "Markus Mehler"
+    },
+    "Requirements": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "SortingOrder": 10,
+    "AtPeriod": 18,
+    "Size": 0,
+    "Name": "VFX und Compositing",
+    "Semesters": [],
+    "Lecturer": {
+      "FirstName": "Stephan",
+      "Id": 9,
+      "LastName": "Pfeiffer",
+      "FullName": "Stephan Pfeiffer"
+    },
+    "Requirements": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "SortingOrder": 24,
+    "AtPeriod": 23,
+    "Size": 0,
+    "Name": "Mediale Gegenkultur",
+    "Semesters": [],
+    "Lecturer": {
+      "FirstName": "Erik",
+      "Id": 23,
+      "LastName": "Osterhagen",
+      "FullName": "Erik Osterhagen"
+    },
+    "Requirements": [
+      4,
+      3,
+      5
+    ]
+  }
+]

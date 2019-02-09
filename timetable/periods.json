@@ -1,0 +1,72 @@
+[
+  {
+    "StartTime": "7:45",
+    "EndTime": "9:15",
+    "Weekday": "monday",
+    "Number": 0,
+    "Elements": null
+  },
+  {
+    "StartTime": "9:30",
+    "EndTime": "11:00",
+    "Weekday": "monday",
+    "Number": 1,
+    "Elements": null
+  },
+  {
+    "StartTime": "11:15",
+    "EndTime": "12:45",
+    "Weekday": "monday",
+    "Number": 2,
+    "Elements": null
+  },
+  {
+    "StartTime": "7:45",
+    "EndTime": "9:15",
+    "Weekday": "tuesday",
+    "Number": 3,
+    "Elements": null
+  },
+  {
+    "StartTime": "9:30",
+    "EndTime": "11:00",
+    "Weekday": "tuesday",
+    "Number": 4,
+    "Elements": null
+  },
+  {
+    "StartTime": "11:15",
+    "EndTime": "12:45",
+    "Weekday": "tuesday",
+    "Number": 5,
+    "Elements": null
+  },
+  {
+    "StartTime": "7:45",
+    "EndTime": "9:15",
+    "Weekday": "wednesday",
+    "Number": 6,
+    "Elements": null
+  },
+  {
+    "StartTime": "9:30",
+    "EndTime": "11:00",
+    "Weekday": "wednesday",
+    "Number": 7,
+    "Elements": null
+  },
+  {
+    "StartTime": "11:15",
+    "EndTime": "12:45",
+    "Weekday": "wednesday",
+    "Number": 8,
+    "Elements": null
+  },
+  {
+    "StartTime": "7:45",
+    "EndTime": "9:15",
+    "Weekday": "thursday",
+    "Number": 9,
+    "Elements": null
+  }
+]

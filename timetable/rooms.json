@@ -1,0 +1,146 @@
+[
+  {
+    "Name": "i0.08",
+    "Equipment": [
+      6
+    ],
+    "Size": 80
+  },
+  {
+    "Name": "i0.13",
+    "Equipment": [
+      4,
+      3,
+      2,
+      5
+    ],
+    "Size": 60
+  },
+  {
+    "Name": "i0.14",
+    "Equipment": [
+      4,
+      3,
+      2,
+      5
+    ],
+    "Size": 60
+  },
+  {
+    "Name": "i0.15",
+    "Equipment": [
+      4,
+      3,
+      2,
+      5
+    ],
+    "Size": 60
+  },
+  {
+    "Name": "i0.16",
+    "Equipment": [
+      4,
+      3,
+      2,
+      5
+    ],
+    "Size": 120
+  },
+  {
+    "Name": "i0.17",
+    "Equipment": [
+      4,
+      3,
+      2,
+      5
+    ],
+    "Size": 120
+  },
+  {
+    "Name": "i1.17",
+    "Equipment": [
+      4,
+      3,
+      2,
+      5,
+      0
+    ],
+    "Size": 40
+  },
+  {
+    "Name": "i1.18",
+    "Equipment": [
+      6
+    ],
+    "Size": 80
+  },
+  {
+    "Name": "i1.19",
+    "Equipment": [
+      4,
+      3,
+      2,
+      5,
+      0
+    ],
+    "Size": 40
+  },
+  {
+    "Name": "l1.05",
+    "Equipment": [
+      4,
+      3,
+      2,
+      5
+    ],
+    "Size": 40
+  },
+  {
+    "Name": "l1.06",
+    "Equipment": [
+      4,
+      3,
+      2,
+      5
+    ],
+    "Size": 60
+  },
+  {
+    "Name": "l2.05",
+    "Equipment": [
+      4,
+      3,
+      2,
+      5
+    ],
+    "Size": 40
+  },
+  {
+    "Name": "l2.07",
+    "Equipment": [
+      4,
+      3,
+      2,
+      5
+    ],
+    "Size": 40
+  },
+  {
+    "Name": "l2.08",
+    "Equipment": [
+      4,
+      3,
+      2,
+      5,
+      0
+    ],
+    "Size": 25
+  },
+  {
+    "Name": "studio",
+    "Equipment": [
+      1
+    ],
+    "Size": 40
+  }
+]

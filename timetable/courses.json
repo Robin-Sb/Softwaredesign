@@ -1,0 +1,1854 @@
+[
+  {
+    "Size": 120,
+    "Name": "Allgemeine Betriebswirtschaftslehre",
+    "Semesters": [
+      {
+        "Major": "MIB",
+        "Id": 1,
+        "Grade": 1,
+        "Size": 40
+      },
+      {
+        "Major": "MKB",
+        "Id": 2,
+        "Grade": 1,
+        "Size": 40
+      },
+      {
+        "Major": "OMB",
+        "Id": 3,
+        "Grade": 1,
+        "Size": 40
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Klaus",
+      "Id": 21,
+      "LastName": "Schuster",
+      "FullName": "Klaus Schuster"
+    },
+    "Requirements": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "Size": 120,
+    "Name": "Grundlagen Unternehmensgründung",
+    "Semesters": [
+      {
+        "Major": "MIB",
+        "Id": 1,
+        "Grade": 1,
+        "Size": 40
+      },
+      {
+        "Major": "MKB",
+        "Id": 2,
+        "Grade": 1,
+        "Size": 40
+      },
+      {
+        "Major": "OMB",
+        "Id": 3,
+        "Grade": 1,
+        "Size": 40
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Klaus",
+      "Id": 21,
+      "LastName": "Schuster",
+      "FullName": "Klaus Schuster"
+    },
+    "Requirements": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "Size": 40,
+    "Name": "Programmieren",
+    "Semesters": [
+      {
+        "Major": "MIB",
+        "Id": 1,
+        "Grade": 1,
+        "Size": 40
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Felix",
+      "Id": 5,
+      "LastName": "Cole",
+      "FullName": "Felix Cole"
+    },
+    "Requirements": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "Size": 40,
+    "Name": "Programmieren Praktikum",
+    "Semesters": [
+      {
+        "Major": "MIB",
+        "Id": 1,
+        "Grade": 1,
+        "Size": 40
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Felix",
+      "Id": 5,
+      "LastName": "Cole",
+      "FullName": "Felix Cole"
+    },
+    "Requirements": [
+      4,
+      3,
+      2,
+      5,
+      0
+    ]
+  },
+  {
+    "Size": 40,
+    "Name": "Programmieren",
+    "Semesters": [
+      {
+        "Major": "OMB",
+        "Id": 3,
+        "Grade": 1,
+        "Size": 40
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Erik",
+      "Id": 19,
+      "LastName": "Seiler",
+      "FullName": "Erik Seiler"
+    },
+    "Requirements": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "Size": 40,
+    "Name": "Programmieren Praktikum",
+    "Semesters": [
+      {
+        "Major": "OMB",
+        "Id": 3,
+        "Grade": 1,
+        "Size": 40
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Erik",
+      "Id": 19,
+      "LastName": "Seiler",
+      "FullName": "Erik Seiler"
+    },
+    "Requirements": [
+      4,
+      3,
+      2,
+      5,
+      0
+    ]
+  },
+  {
+    "Size": 40,
+    "Name": "Entwicklung Interaktiver Anwendungen",
+    "Semesters": [
+      {
+        "Major": "MKB",
+        "Id": 2,
+        "Grade": 1,
+        "Size": 40
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Thorsten",
+      "Id": 22,
+      "LastName": "Schulze",
+      "FullName": "Thorsten Schulze"
+    },
+    "Requirements": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "Size": 40,
+    "Name": "Entwicklung Interaktiver Anwendungen Praktikum",
+    "Semesters": [
+      {
+        "Major": "MKB",
+        "Id": 2,
+        "Grade": 1,
+        "Size": 40
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Thorsten",
+      "Id": 22,
+      "LastName": "Schulze",
+      "FullName": "Thorsten Schulze"
+    },
+    "Requirements": [
+      4,
+      3,
+      2,
+      5,
+      0
+    ]
+  },
+  {
+    "Size": 80,
+    "Name": "Audiotechnik",
+    "Semesters": [
+      {
+        "Major": "MIB",
+        "Id": 1,
+        "Grade": 1,
+        "Size": 40
+      },
+      {
+        "Major": "OMB",
+        "Id": 3,
+        "Grade": 1,
+        "Size": 40
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Mario",
+      "Id": 15,
+      "LastName": "Hoffmann",
+      "FullName": "Mario Hoffmann"
+    },
+    "Requirements": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "Size": 40,
+    "Name": "Videotechnik",
+    "Semesters": [
+      {
+        "Major": "MIB",
+        "Id": 1,
+        "Grade": 1,
+        "Size": 40
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Mario",
+      "Id": 15,
+      "LastName": "Hoffmann",
+      "FullName": "Mario Hoffmann"
+    },
+    "Requirements": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "Size": 40,
+    "Name": "Medientechnik Praktikum",
+    "Semesters": [
+      {
+        "Major": "MIB",
+        "Id": 1,
+        "Grade": 1,
+        "Size": 40
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Mario",
+      "Id": 15,
+      "LastName": "Hoffmann",
+      "FullName": "Mario Hoffmann"
+    },
+    "Requirements": [
+      1
+    ]
+  },
+  {
+    "Size": 80,
+    "Name": "Videotechnik",
+    "Semesters": [
+      {
+        "Major": "OMB",
+        "Id": 3,
+        "Grade": 1,
+        "Size": 40
+      },
+      {
+        "Major": "OMB",
+        "Id": 3,
+        "Grade": 1,
+        "Size": 40
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Niklas",
+      "Id": 16,
+      "LastName": "Jung",
+      "FullName": "Niklas Jung"
+    },
+    "Requirements": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "Size": 40,
+    "Name": "Medientechnik Praktikum",
+    "Semesters": [
+      {
+        "Major": "OMB",
+        "Id": 3,
+        "Grade": 1,
+        "Size": 40
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Sebastian",
+      "Id": 20,
+      "LastName": "Gaertner",
+      "FullName": "Sebastian Gaertner"
+    },
+    "Requirements": [
+      1
+    ]
+  },
+  {
+    "Size": 40,
+    "Name": "Medientechnik Praktikum",
+    "Semesters": [
+      {
+        "Major": "MKB",
+        "Id": 2,
+        "Grade": 1,
+        "Size": 40
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Sebastian",
+      "Id": 20,
+      "LastName": "Gaertner",
+      "FullName": "Sebastian Gaertner"
+    },
+    "Requirements": [
+      1
+    ]
+  },
+  {
+    "Size": 80,
+    "Name": "Mathematik in Medien und Informatik",
+    "Semesters": [
+      {
+        "Major": "MIB",
+        "Id": 1,
+        "Grade": 1,
+        "Size": 40
+      },
+      {
+        "Major": "OMB",
+        "Id": 3,
+        "Grade": 1,
+        "Size": 40
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Niklas",
+      "Id": 16,
+      "LastName": "Jung",
+      "FullName": "Niklas Jung"
+    },
+    "Requirements": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "Size": 80,
+    "Name": "Mathematik in Medien und Informatik Praktikum",
+    "Semesters": [
+      {
+        "Major": "MIB",
+        "Id": 1,
+        "Grade": 1,
+        "Size": 40
+      },
+      {
+        "Major": "OMB",
+        "Id": 3,
+        "Grade": 1,
+        "Size": 40
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Niklas",
+      "Id": 16,
+      "LastName": "Jung",
+      "FullName": "Niklas Jung"
+    },
+    "Requirements": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "Size": 80,
+    "Name": "Physik in Medien und Informatik",
+    "Semesters": [
+      {
+        "Major": "MIB",
+        "Id": 1,
+        "Grade": 1,
+        "Size": 40
+      },
+      {
+        "Major": "OMB",
+        "Id": 3,
+        "Grade": 1,
+        "Size": 40
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Niklas",
+      "Id": 16,
+      "LastName": "Jung",
+      "FullName": "Niklas Jung"
+    },
+    "Requirements": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "Size": 120,
+    "Name": "Grundlagen Mediengestaltung Praktikum",
+    "Semesters": [
+      {
+        "Major": "MIB",
+        "Id": 1,
+        "Grade": 1,
+        "Size": 40
+      },
+      {
+        "Major": "MKB",
+        "Id": 2,
+        "Grade": 1,
+        "Size": 40
+      },
+      {
+        "Major": "OMB",
+        "Id": 3,
+        "Grade": 1,
+        "Size": 40
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Markus",
+      "Id": 6,
+      "LastName": "Mehler",
+      "FullName": "Markus Mehler"
+    },
+    "Requirements": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "Size": 120,
+    "Name": "Grundlagen Mediengestaltung",
+    "Semesters": [
+      {
+        "Major": "MIB",
+        "Id": 1,
+        "Grade": 1,
+        "Size": 40
+      },
+      {
+        "Major": "MKB",
+        "Id": 2,
+        "Grade": 1,
+        "Size": 40
+      },
+      {
+        "Major": "OMB",
+        "Id": 3,
+        "Grade": 1,
+        "Size": 40
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Markus",
+      "Id": 6,
+      "LastName": "Mehler",
+      "FullName": "Markus Mehler"
+    },
+    "Requirements": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "Size": 120,
+    "Name": "Medienpsychologie",
+    "Semesters": [
+      {
+        "Major": "MIB",
+        "Id": 1,
+        "Grade": 1,
+        "Size": 40
+      },
+      {
+        "Major": "MKB",
+        "Id": 2,
+        "Grade": 1,
+        "Size": 40
+      },
+      {
+        "Major": "OMB",
+        "Id": 3,
+        "Grade": 1,
+        "Size": 40
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Uwe",
+      "Id": 4,
+      "LastName": "Freud",
+      "FullName": "Uwe Freud"
+    },
+    "Requirements": [
+      4,
+      3,
+      2,
+      5
+    ]
+  },
+  {
+    "Size": 40,
+    "Name": "Medienanalyse",
+    "Semesters": [
+      {
+        "Major": "MKB",
+        "Id": 2,
+        "Grade": 1,
+        "Size": 40
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Markus",
+      "Id": 6,
+      "LastName": "Mehler",
+      "FullName": "Markus Mehler"
+    },
+    "Requirements": [
+      4,
+      3,
+      2,
+      5
+    ]
+  },
+  {
+    "Size": 40,
+    "Name": "Grundlagen Medienkonzeption Seminar",
+    "Semesters": [
+      {
+        "Major": "MKB",
+        "Id": 2,
+        "Grade": 1,
+        "Size": 40
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Antje",
+      "Id": 7,
+      "LastName": "Papst",
+      "FullName": "Antje Papst"
+    },
+    "Requirements": [
+      4,
+      3,
+      2,
+      5
+    ]
+  },
+  {
+    "Size": 105,
+    "Name": "Computergrafik und 3D Modellierung",
+    "Semesters": [
+      {
+        "Major": "MIB",
+        "Id": 4,
+        "Grade": 2,
+        "Size": 35
+      },
+      {
+        "Major": "MKB",
+        "Id": 5,
+        "Grade": 2,
+        "Size": 35
+      },
+      {
+        "Major": "OMB",
+        "Id": 6,
+        "Grade": 2,
+        "Size": 35
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Thorsten",
+      "Id": 13,
+      "LastName": "Kaiser",
+      "FullName": "Thorsten Kaiser"
+    },
+    "Requirements": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "Size": 35,
+    "Name": "Computergrafik und 3D Modellierung Praktikum",
+    "Semesters": [
+      {
+        "Major": "MIB",
+        "Id": 4,
+        "Grade": 2,
+        "Size": 35
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Thorsten",
+      "Id": 13,
+      "LastName": "Kaiser",
+      "FullName": "Thorsten Kaiser"
+    },
+    "Requirements": [
+      4,
+      3,
+      2,
+      5,
+      0
+    ]
+  },
+  {
+    "Size": 35,
+    "Name": "Mathematische Grundlagen von Gestaltung und Computergrafik",
+    "Semesters": [
+      {
+        "Major": "MKB",
+        "Id": 5,
+        "Grade": 2,
+        "Size": 35
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Niklas",
+      "Id": 16,
+      "LastName": "Jung",
+      "FullName": "Niklas Jung"
+    },
+    "Requirements": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "Size": 70,
+    "Name": "AV-Produktion",
+    "Semesters": [
+      {
+        "Major": "MKB",
+        "Id": 5,
+        "Grade": 2,
+        "Size": 35
+      },
+      {
+        "Major": "OMB",
+        "Id": 6,
+        "Grade": 2,
+        "Size": 35
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Mario",
+      "Id": 15,
+      "LastName": "Hoffmann",
+      "FullName": "Mario Hoffmann"
+    },
+    "Requirements": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "Size": 70,
+    "Name": "AV-Produktion Praktikum",
+    "Semesters": [
+      {
+        "Major": "MKB",
+        "Id": 5,
+        "Grade": 2,
+        "Size": 35
+      },
+      {
+        "Major": "OMB",
+        "Id": 6,
+        "Grade": 2,
+        "Size": 35
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Mario",
+      "Id": 15,
+      "LastName": "Hoffmann",
+      "FullName": "Mario Hoffmann"
+    },
+    "Requirements": [
+      6
+    ]
+  },
+  {
+    "Size": 35,
+    "Name": "Entwicklung Interaktiver Anwendungen II",
+    "Semesters": [
+      {
+        "Major": "MKB",
+        "Id": 5,
+        "Grade": 2,
+        "Size": 35
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Eric",
+      "Id": 3,
+      "LastName": "Schroeder",
+      "FullName": "Eric Schroeder"
+    },
+    "Requirements": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "Size": 35,
+    "Name": "Entwicklung Interaktiver Anwendungen II Praktikum",
+    "Semesters": [
+      {
+        "Major": "MKB",
+        "Id": 5,
+        "Grade": 2,
+        "Size": 35
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Eric",
+      "Id": 3,
+      "LastName": "Schroeder",
+      "FullName": "Eric Schroeder"
+    },
+    "Requirements": [
+      4,
+      3,
+      2,
+      5,
+      0
+    ]
+  },
+  {
+    "Size": 105,
+    "Name": "User Experience Design",
+    "Semesters": [
+      {
+        "Major": "MIB",
+        "Id": 4,
+        "Grade": 2,
+        "Size": 35
+      },
+      {
+        "Major": "MKB",
+        "Id": 5,
+        "Grade": 2,
+        "Size": 35
+      },
+      {
+        "Major": "OMB",
+        "Id": 6,
+        "Grade": 2,
+        "Size": 35
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Florian",
+      "Id": 11,
+      "LastName": "Muench",
+      "FullName": "Florian Muench"
+    },
+    "Requirements": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "Size": 105,
+    "Name": "User Experience Design Praktikum",
+    "Semesters": [
+      {
+        "Major": "MIB",
+        "Id": 4,
+        "Grade": 2,
+        "Size": 35
+      },
+      {
+        "Major": "MKB",
+        "Id": 5,
+        "Grade": 2,
+        "Size": 35
+      },
+      {
+        "Major": "OMB",
+        "Id": 6,
+        "Grade": 2,
+        "Size": 35
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Florian",
+      "Id": 11,
+      "LastName": "Muench",
+      "FullName": "Florian Muench"
+    },
+    "Requirements": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "Size": 105,
+    "Name": "Marketing",
+    "Semesters": [
+      {
+        "Major": "MIB",
+        "Id": 4,
+        "Grade": 2,
+        "Size": 35
+      },
+      {
+        "Major": "MKB",
+        "Id": 5,
+        "Grade": 2,
+        "Size": 35
+      },
+      {
+        "Major": "OMB",
+        "Id": 6,
+        "Grade": 2,
+        "Size": 35
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Florian",
+      "Id": 11,
+      "LastName": "Muench",
+      "FullName": "Florian Muench"
+    },
+    "Requirements": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "Size": 105,
+    "Name": "Medienökonomie",
+    "Semesters": [
+      {
+        "Major": "MIB",
+        "Id": 4,
+        "Grade": 2,
+        "Size": 35
+      },
+      {
+        "Major": "MKB",
+        "Id": 5,
+        "Grade": 2,
+        "Size": 35
+      },
+      {
+        "Major": "OMB",
+        "Id": 6,
+        "Grade": 2,
+        "Size": 35
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Florian",
+      "Id": 11,
+      "LastName": "Muench",
+      "FullName": "Florian Muench"
+    },
+    "Requirements": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "Size": 35,
+    "Name": "Mathematik und Simulation Seminar",
+    "Semesters": [
+      {
+        "Major": "MIB",
+        "Id": 4,
+        "Grade": 2,
+        "Size": 35
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Niklas",
+      "Id": 16,
+      "LastName": "Jung",
+      "FullName": "Niklas Jung"
+    },
+    "Requirements": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "Size": 35,
+    "Name": "Mathematik und Simulation",
+    "Semesters": [
+      {
+        "Major": "MIB",
+        "Id": 4,
+        "Grade": 2,
+        "Size": 35
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Melania",
+      "Id": 12,
+      "LastName": "Dolgorukova",
+      "FullName": "Melania Dolgorukova"
+    },
+    "Requirements": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "Size": 35,
+    "Name": "Mathematik und Simulation Praktikum",
+    "Semesters": [
+      {
+        "Major": "MIB",
+        "Id": 4,
+        "Grade": 2,
+        "Size": 35
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Melania",
+      "Id": 12,
+      "LastName": "Dolgorukova",
+      "FullName": "Melania Dolgorukova"
+    },
+    "Requirements": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "Size": 35,
+    "Name": "Grundlagen Interaktiver Systeme",
+    "Semesters": [
+      {
+        "Major": "MIB",
+        "Id": 4,
+        "Grade": 2,
+        "Size": 35
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Frank",
+      "Id": 24,
+      "LastName": "Junker",
+      "FullName": "Frank Junker"
+    },
+    "Requirements": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "Size": 35,
+    "Name": "Grundlagen Interaktiver Systeme Praktikum",
+    "Semesters": [
+      {
+        "Major": "MIB",
+        "Id": 4,
+        "Grade": 2,
+        "Size": 35
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Frank",
+      "Id": 24,
+      "LastName": "Junker",
+      "FullName": "Frank Junker"
+    },
+    "Requirements": [
+      4,
+      3,
+      2,
+      5,
+      0
+    ]
+  },
+  {
+    "Size": 35,
+    "Name": "Grundlagen Interaktiver Systeme",
+    "Semesters": [
+      {
+        "Major": "OMB",
+        "Id": 6,
+        "Grade": 2,
+        "Size": 35
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Erik",
+      "Id": 19,
+      "LastName": "Seiler",
+      "FullName": "Erik Seiler"
+    },
+    "Requirements": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "Size": 35,
+    "Name": "Grundlagen Interaktiver Systeme Praktikum",
+    "Semesters": [
+      {
+        "Major": "OMB",
+        "Id": 6,
+        "Grade": 2,
+        "Size": 35
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Erik",
+      "Id": 19,
+      "LastName": "Seiler",
+      "FullName": "Erik Seiler"
+    },
+    "Requirements": [
+      4,
+      3,
+      2,
+      5,
+      0
+    ]
+  },
+  {
+    "Size": 35,
+    "Name": "Geometrische und statische Modellierung",
+    "Semesters": [
+      {
+        "Major": "OMB",
+        "Id": 6,
+        "Grade": 2,
+        "Size": 35
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Melania",
+      "Id": 12,
+      "LastName": "Dolgorukova",
+      "FullName": "Melania Dolgorukova"
+    },
+    "Requirements": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "Size": 35,
+    "Name": "Geometrische und statische Modellierung Praktikum",
+    "Semesters": [
+      {
+        "Major": "OMB",
+        "Id": 6,
+        "Grade": 2,
+        "Size": 35
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Melania",
+      "Id": 12,
+      "LastName": "Dolgorukova",
+      "FullName": "Melania Dolgorukova"
+    },
+    "Requirements": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "Size": 84,
+    "Name": "Projektmanagement und Softskills",
+    "Semesters": [
+      {
+        "Major": "MIB",
+        "Id": 10,
+        "Grade": 4,
+        "Size": 28
+      },
+      {
+        "Major": "MKB",
+        "Id": 11,
+        "Grade": 4,
+        "Size": 28
+      },
+      {
+        "Major": "OMB",
+        "Id": 12,
+        "Grade": 4,
+        "Size": 28
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Markus",
+      "Id": 14,
+      "LastName": "Richter",
+      "FullName": "Markus Richter"
+    },
+    "Requirements": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "Size": 28,
+    "Name": "Graphische Datenverarbeitung",
+    "Semesters": [
+      {
+        "Major": "MIB",
+        "Id": 10,
+        "Grade": 4,
+        "Size": 28
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Sebastian",
+      "Id": 20,
+      "LastName": "Gaertner",
+      "FullName": "Sebastian Gaertner"
+    },
+    "Requirements": [
+      4,
+      3,
+      2,
+      5
+    ]
+  },
+  {
+    "Size": 28,
+    "Name": "Graphische Datenverarbeitung Praktikum",
+    "Semesters": [
+      {
+        "Major": "MIB",
+        "Id": 10,
+        "Grade": 4,
+        "Size": 28
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Sebastian",
+      "Id": 20,
+      "LastName": "Gaertner",
+      "FullName": "Sebastian Gaertner"
+    },
+    "Requirements": [
+      4,
+      3,
+      2,
+      5,
+      0
+    ]
+  },
+  {
+    "Size": 28,
+    "Name": "Kommunikationssysteme",
+    "Semesters": [
+      {
+        "Major": "MIB",
+        "Id": 10,
+        "Grade": 4,
+        "Size": 28
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Marko",
+      "Id": 2,
+      "LastName": "Kaufmann",
+      "FullName": "Marko Kaufmann"
+    },
+    "Requirements": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "Size": 28,
+    "Name": "Kommunikationssysteme Praktikum",
+    "Semesters": [
+      {
+        "Major": "MIB",
+        "Id": 10,
+        "Grade": 4,
+        "Size": 28
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Marko",
+      "Id": 2,
+      "LastName": "Kaufmann",
+      "FullName": "Marko Kaufmann"
+    },
+    "Requirements": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "Size": 28,
+    "Name": "Softwaredesign",
+    "Semesters": [
+      {
+        "Major": "MIB",
+        "Id": 10,
+        "Grade": 4,
+        "Size": 28
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Eric",
+      "Id": 3,
+      "LastName": "Schroeder",
+      "FullName": "Eric Schroeder"
+    },
+    "Requirements": [
+      4,
+      3,
+      2,
+      5,
+      0
+    ]
+  },
+  {
+    "Size": 28,
+    "Name": "Softwaredesign Praktikum",
+    "Semesters": [
+      {
+        "Major": "MIB",
+        "Id": 10,
+        "Grade": 4,
+        "Size": 28
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Eric",
+      "Id": 3,
+      "LastName": "Schroeder",
+      "FullName": "Eric Schroeder"
+    },
+    "Requirements": [
+      4,
+      3,
+      2,
+      5,
+      0
+    ]
+  },
+  {
+    "Size": 28,
+    "Name": "E-Business",
+    "Semesters": [
+      {
+        "Major": "OMB",
+        "Id": 12,
+        "Grade": 4,
+        "Size": 28
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Markus",
+      "Id": 14,
+      "LastName": "Richter",
+      "FullName": "Markus Richter"
+    },
+    "Requirements": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "Size": 28,
+    "Name": "Medien- und Kommunikationswirtschaft",
+    "Semesters": [
+      {
+        "Major": "OMB",
+        "Id": 12,
+        "Grade": 4,
+        "Size": 28
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Erik",
+      "Id": 23,
+      "LastName": "Osterhagen",
+      "FullName": "Erik Osterhagen"
+    },
+    "Requirements": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "Size": 28,
+    "Name": "Webtechnologie",
+    "Semesters": [
+      {
+        "Major": "OMB",
+        "Id": 12,
+        "Grade": 4,
+        "Size": 28
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Marko",
+      "Id": 2,
+      "LastName": "Kaufmann",
+      "FullName": "Marko Kaufmann"
+    },
+    "Requirements": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "Size": 28,
+    "Name": "Webtechnologie Praktikum",
+    "Semesters": [
+      {
+        "Major": "OMB",
+        "Id": 12,
+        "Grade": 4,
+        "Size": 28
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Marko",
+      "Id": 2,
+      "LastName": "Kaufmann",
+      "FullName": "Marko Kaufmann"
+    },
+    "Requirements": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "Size": 28,
+    "Name": "Responsive Web Design",
+    "Semesters": [
+      {
+        "Major": "OMB",
+        "Id": 12,
+        "Grade": 4,
+        "Size": 28
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Florian",
+      "Id": 11,
+      "LastName": "Muench",
+      "FullName": "Florian Muench"
+    },
+    "Requirements": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "Size": 28,
+    "Name": "Responsive Web Design Praktikum",
+    "Semesters": [
+      {
+        "Major": "OMB",
+        "Id": 12,
+        "Grade": 4,
+        "Size": 28
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Florian",
+      "Id": 11,
+      "LastName": "Muench",
+      "FullName": "Florian Muench"
+    },
+    "Requirements": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "Size": 28,
+    "Name": "Konzeption",
+    "Semesters": [
+      {
+        "Major": "MKB",
+        "Id": 11,
+        "Grade": 4,
+        "Size": 28
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Antje",
+      "Id": 7,
+      "LastName": "Papst",
+      "FullName": "Antje Papst"
+    },
+    "Requirements": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "Size": 28,
+    "Name": "Ideenentwicklung",
+    "Semesters": [
+      {
+        "Major": "MKB",
+        "Id": 11,
+        "Grade": 4,
+        "Size": 28
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Markus",
+      "Id": 6,
+      "LastName": "Mehler",
+      "FullName": "Markus Mehler"
+    },
+    "Requirements": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "Size": 28,
+    "Name": "E-Learning und Online-Learning",
+    "Semesters": [
+      {
+        "Major": "MKB",
+        "Id": 11,
+        "Grade": 4,
+        "Size": 28
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Uwe",
+      "Id": 4,
+      "LastName": "Freud",
+      "FullName": "Uwe Freud"
+    },
+    "Requirements": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "Size": 28,
+    "Name": "E-Learning und Online-Learning Praktikum",
+    "Semesters": [
+      {
+        "Major": "MKB",
+        "Id": 11,
+        "Grade": 4,
+        "Size": 28
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Uwe",
+      "Id": 4,
+      "LastName": "Freud",
+      "FullName": "Uwe Freud"
+    },
+    "Requirements": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "Size": 28,
+    "Name": "Storytelling",
+    "Semesters": [
+      {
+        "Major": "MKB",
+        "Id": 11,
+        "Grade": 4,
+        "Size": 28
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Ralf",
+      "Id": 25,
+      "LastName": "Bieber",
+      "FullName": "Ralf Bieber"
+    },
+    "Requirements": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "Size": 28,
+    "Name": "Creative Writing",
+    "Semesters": [
+      {
+        "Major": "MKB",
+        "Id": 11,
+        "Grade": 4,
+        "Size": 28
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Ralf",
+      "Id": 25,
+      "LastName": "Bieber",
+      "FullName": "Ralf Bieber"
+    },
+    "Requirements": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "Size": 25,
+    "Name": "Datenverarbeitung in der Medienproduktion",
+    "Semesters": [
+      {
+        "Major": "MIB",
+        "Id": 13,
+        "Grade": 5,
+        "Size": 25
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Thorsten",
+      "Id": 13,
+      "LastName": "Kaiser",
+      "FullName": "Thorsten Kaiser"
+    },
+    "Requirements": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "Size": 25,
+    "Name": "Verteilte Anwendungen",
+    "Semesters": [
+      {
+        "Major": "MIB",
+        "Id": 13,
+        "Grade": 5,
+        "Size": 25
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Felix",
+      "Id": 5,
+      "LastName": "Cole",
+      "FullName": "Felix Cole"
+    },
+    "Requirements": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "Size": 25,
+    "Name": "Verteile Anwendungen Praktikum",
+    "Semesters": [
+      {
+        "Major": "MIB",
+        "Id": 13,
+        "Grade": 5,
+        "Size": 25
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Felix",
+      "Id": 5,
+      "LastName": "Cole",
+      "FullName": "Felix Cole"
+    },
+    "Requirements": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "Size": 25,
+    "Name": "Digitale AV-Technik",
+    "Semesters": [
+      {
+        "Major": "MIB",
+        "Id": 13,
+        "Grade": 5,
+        "Size": 25
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Stephan",
+      "Id": 9,
+      "LastName": "Pfeiffer",
+      "FullName": "Stephan Pfeiffer"
+    },
+    "Requirements": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "Size": 25,
+    "Name": "Interface Design",
+    "Semesters": [
+      {
+        "Major": "OMB",
+        "Id": 15,
+        "Grade": 5,
+        "Size": 25
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Max",
+      "Id": 26,
+      "LastName": "Engenhart",
+      "FullName": "Max Engenhart"
+    },
+    "Requirements": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "Size": 25,
+    "Name": "Interface Design Praktikum",
+    "Semesters": [
+      {
+        "Major": "OMB",
+        "Id": 15,
+        "Grade": 5,
+        "Size": 25
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Max",
+      "Id": 26,
+      "LastName": "Engenhart",
+      "FullName": "Max Engenhart"
+    },
+    "Requirements": [
+      4,
+      3,
+      2,
+      5,
+      0
+    ]
+  },
+  {
+    "Size": 25,
+    "Name": "Streaming Anwendungen",
+    "Semesters": [
+      {
+        "Major": "OMB",
+        "Id": 15,
+        "Grade": 5,
+        "Size": 25
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Stephan",
+      "Id": 9,
+      "LastName": "Pfeiffer",
+      "FullName": "Stephan Pfeiffer"
+    },
+    "Requirements": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "Size": 25,
+    "Name": "Streaming Anwendungen Praktikum",
+    "Semesters": [
+      {
+        "Major": "OMB",
+        "Id": 15,
+        "Grade": 5,
+        "Size": 25
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Stephan",
+      "Id": 9,
+      "LastName": "Pfeiffer",
+      "FullName": "Stephan Pfeiffer"
+    },
+    "Requirements": [
+      4,
+      3,
+      2,
+      5,
+      0
+    ]
+  },
+  {
+    "Size": 25,
+    "Name": "Interface Design",
+    "Semesters": [
+      {
+        "Major": "MKB",
+        "Id": 14,
+        "Grade": 5,
+        "Size": 25
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Florian",
+      "Id": 11,
+      "LastName": "Muench",
+      "FullName": "Florian Muench"
+    },
+    "Requirements": [
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "Size": 25,
+    "Name": "Interface Design Praktikum",
+    "Semesters": [
+      {
+        "Major": "MKB",
+        "Id": 14,
+        "Grade": 5,
+        "Size": 25
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Florian",
+      "Id": 11,
+      "LastName": "Muench",
+      "FullName": "Florian Muench"
+    },
+    "Requirements": [
+      4,
+      3,
+      2,
+      5,
+      0
+    ]
+  },
+  {
+    "Size": 25,
+    "Name": "Operatives Marketing",
+    "Semesters": [
+      {
+        "Major": "MKB",
+        "Id": 14,
+        "Grade": 5,
+        "Size": 25
+      }
+    ],
+    "Lecturer": {
+      "FirstName": "Markus",
+      "Id": 14,
+      "LastName": "Richter",
+      "FullName": "Markus Richter"
+    },
+    "Requirements": [
+      4,
+      3,
+      5
+    ]
+  }
+]

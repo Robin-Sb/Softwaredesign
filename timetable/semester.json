@@ -1,0 +1,128 @@
+[
+  {
+    "Major": "MIB",
+    "Id": 1,
+    "Grade": 1,
+    "Size": 40
+  },
+  {
+    "Major": "MKB",
+    "Id": 2,
+    "Grade": 1,
+    "Size": 40
+  },
+  {
+    "Major": "OMB",
+    "Id": 3,
+    "Grade": 1,
+    "Size": 40
+  },
+  {
+    "Major": "MIB",
+    "Id": 4,
+    "Grade": 2,
+    "Size": 35
+  },
+  {
+    "Major": "MKB",
+    "Id": 5,
+    "Grade": 2,
+    "Size": 35
+  },
+  {
+    "Major": "OMB",
+    "Id": 6,
+    "Grade": 2,
+    "Size": 35
+  },
+  {
+    "Major": "MIB",
+    "Id": 7,
+    "Grade": 3,
+    "Size": 31
+  },
+  {
+    "Major": "MKB",
+    "Id": 8,
+    "Grade": 3,
+    "Size": 31
+  },
+  {
+    "Major": "OMB",
+    "Id": 9,
+    "Grade": 3,
+    "Size": 31
+  },
+  {
+    "Major": "MIB",
+    "Id": 10,
+    "Grade": 4,
+    "Size": 28
+  },
+  {
+    "Major": "MKB",
+    "Id": 11,
+    "Grade": 4,
+    "Size": 28
+  },
+  {
+    "Major": "OMB",
+    "Id": 12,
+    "Grade": 4,
+    "Size": 28
+  },
+  {
+    "Major": "MIB",
+    "Id": 13,
+    "Grade": 5,
+    "Size": 25
+  },
+  {
+    "Major": "MKB",
+    "Id": 14,
+    "Grade": 5,
+    "Size": 25
+  },
+  {
+    "Major": "OMB",
+    "Id": 15,
+    "Grade": 5,
+    "Size": 25
+  },
+  {
+    "Major": "MIB",
+    "Id": 16,
+    "Grade": 6,
+    "Size": 22
+  },
+  {
+    "Major": "MKB",
+    "Id": 17,
+    "Grade": 6,
+    "Size": 22
+  },
+  {
+    "Major": "OMB",
+    "Id": 18,
+    "Grade": 6,
+    "Size": 22
+  },
+  {
+    "Major": "MIB",
+    "Id": 19,
+    "Grade": 7,
+    "Size": 20
+  },
+  {
+    "Major": "MKB",
+    "Id": 20,
+    "Grade": 7,
+    "Size": 20
+  },
+  {
+    "Major": "OMB",
+    "Id": 21,
+    "Grade": 7,
+    "Size": 20
+  }
+]

@@ -1,0 +1,11 @@
+C:\Users\Robin\Documents\Softwaredesign\Softwaredesign\timetable\bin\Debug\netcoreapp2.1\timetable.deps.json
+C:\Users\Robin\Documents\Softwaredesign\Softwaredesign\timetable\bin\Debug\netcoreapp2.1\timetable.runtimeconfig.json
+C:\Users\Robin\Documents\Softwaredesign\Softwaredesign\timetable\bin\Debug\netcoreapp2.1\timetable.runtimeconfig.dev.json
+C:\Users\Robin\Documents\Softwaredesign\Softwaredesign\timetable\bin\Debug\netcoreapp2.1\timetable.dll
+C:\Users\Robin\Documents\Softwaredesign\Softwaredesign\timetable\bin\Debug\netcoreapp2.1\timetable.pdb
+C:\Users\Robin\Documents\Softwaredesign\Softwaredesign\timetable\obj\Debug\netcoreapp2.1\timetable.csprojAssemblyReference.cache
+C:\Users\Robin\Documents\Softwaredesign\Softwaredesign\timetable\obj\Debug\netcoreapp2.1\timetable.csproj.CoreCompileInputs.cache
+C:\Users\Robin\Documents\Softwaredesign\Softwaredesign\timetable\obj\Debug\netcoreapp2.1\timetable.AssemblyInfoInputs.cache
+C:\Users\Robin\Documents\Softwaredesign\Softwaredesign\timetable\obj\Debug\netcoreapp2.1\timetable.AssemblyInfo.cs
+C:\Users\Robin\Documents\Softwaredesign\Softwaredesign\timetable\obj\Debug\netcoreapp2.1\timetable.dll
+C:\Users\Robin\Documents\Softwaredesign\Softwaredesign\timetable\obj\Debug\netcoreapp2.1\timetable.pdb
