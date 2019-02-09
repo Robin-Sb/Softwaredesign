@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Newtonsoft.Json;
 
 namespace timetable {
-    class Period {
+    public class Period {
         [JsonConstructor]
         public Period(string startTime, string endTime, string weekday, int number) 
         {

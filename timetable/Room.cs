@@ -2,7 +2,7 @@ using Newtonsoft.Json;
 using System.Collections.Generic;
 
 namespace timetable {
-    class Room {
+     public class Room {
         public Room (string name, List<Equipment> equipment, int size)
         {
             this.name = name;

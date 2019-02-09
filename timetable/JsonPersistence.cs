@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace timetable 
 {
-    class JsonPersistence 
+    public class JsonPersistence 
     {
         static JsonSerializerSettings settings = new JsonSerializerSettings
         {
@@ -63,7 +63,7 @@ namespace timetable
         }
         public static Timetable DeserializeTimetable()
         {
-            return JsonConvert.DeserializeObject<Timetable>(File.ReadAllText(@"..\timetable\timetable.json"), settings);
+            return JsonConvert.DeserializeObject<Timetable>(File.ReadAllText(Path.Combine(Environment.CurrentDirectory + "/timetable.json")), settings);
         }
 
         public static void SerializeOptionalCourses(List<OptionalCourse> optionalCourse) 
@@ -75,6 +75,5 @@ namespace timetable
         {
             return JsonConvert.DeserializeObject<List<OptionalCourse>>(File.ReadAllText(@"..\timetable\optional_courses.json"), settings);
         }
-
     }
 }

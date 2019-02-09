@@ -23,8 +23,10 @@ namespace timetable
                     leftoverCourses.Add(leftover);
                 }
             }
-
-            PutLeftoverCourses(leftoverCourses, periods, rooms);
+            if (leftoverCourses.Count > 0)
+            {
+                PutLeftoverCourses(leftoverCourses, periods, rooms);
+            }
 
             timetable.Periods = periods;
             JsonPersistence.SerializeTimetable(timetable);
@@ -110,6 +112,14 @@ namespace timetable
                     hasRequirements = false;
                 }
             }
+
+            foreach (Equipment equipment in currentRoom.Equipment)
+            {
+                if(!course.Requirements.Contains(equipment))
+                {
+                    hasRequirements = false;
+                }
+            }
             return hasRequirements;
         }
 
@@ -159,7 +169,6 @@ namespace timetable
                     }
                     
                     iterations++;
-                    Console.WriteLine(iterations);
                     if (iterations > 10000)
                     {
                         break;
@@ -207,7 +216,7 @@ namespace timetable
                 {
                     bool hasRequirements = CheckWhetherEquipmentSuffices(freeRoom, unsuccessfulCourse);
 
-                    if (freeRoom.Size < unsuccessfulCourse.Size && lecturerIsOccupied && hasRequirements && semesterIsUnoccupied)
+                    if (freeRoom.Size >= unsuccessfulCourse.Size && lecturerIsOccupied && hasRequirements && semesterIsUnoccupied)
                     {
                         period.Elements.Add(new SchedulableElement(unsuccessfulCourse, freeRoom));
                         wasSetable = true;

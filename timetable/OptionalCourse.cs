@@ -1,6 +1,6 @@
 namespace timetable 
 {
-    class OptionalCourse : Course
+    public class OptionalCourse : Course
     {
         public OptionalCourse(Lecturer lecturer, string name, int atPeriod) 
         {

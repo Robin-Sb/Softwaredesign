@@ -1,8 +1,9 @@
 using System;
 using System.Collections.Generic;
+
 namespace timetable 
 {
-    class Semester 
+    public class Semester 
     {
         public Semester (string major, int grade, int size, int id) {
             this.major = major;

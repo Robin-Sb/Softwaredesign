@@ -2,7 +2,7 @@ using System;
 
 namespace timetable 
 {
-    class SchedulableElement 
+    public class SchedulableElement 
     {
         public SchedulableElement (Course course, Room room)
         {

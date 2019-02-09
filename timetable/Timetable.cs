@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace timetable 
 {
-    class Timetable 
+    public class Timetable 
     {
         private Period[] periods;
         public Period[] Periods

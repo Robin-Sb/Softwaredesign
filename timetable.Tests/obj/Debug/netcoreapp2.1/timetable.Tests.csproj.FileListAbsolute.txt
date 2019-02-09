@@ -1,0 +1,17 @@
+C:\Users\Robin\Documents\Softwaredesign\Softwaredesign\timetable.Tests\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\Robin\Documents\Softwaredesign\Softwaredesign\timetable.Tests\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\Robin\Documents\Softwaredesign\Softwaredesign\timetable.Tests\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+C:\Users\Robin\Documents\Softwaredesign\Softwaredesign\timetable.Tests\bin\Debug\netcoreapp2.1\timetable.Tests.deps.json
+C:\Users\Robin\Documents\Softwaredesign\Softwaredesign\timetable.Tests\bin\Debug\netcoreapp2.1\timetable.Tests.runtimeconfig.json
+C:\Users\Robin\Documents\Softwaredesign\Softwaredesign\timetable.Tests\bin\Debug\netcoreapp2.1\timetable.Tests.runtimeconfig.dev.json
+C:\Users\Robin\Documents\Softwaredesign\Softwaredesign\timetable.Tests\bin\Debug\netcoreapp2.1\timetable.Tests.dll
+C:\Users\Robin\Documents\Softwaredesign\Softwaredesign\timetable.Tests\bin\Debug\netcoreapp2.1\timetable.Tests.pdb
+C:\Users\Robin\Documents\Softwaredesign\Softwaredesign\timetable.Tests\bin\Debug\netcoreapp2.1\timetable.dll
+C:\Users\Robin\Documents\Softwaredesign\Softwaredesign\timetable.Tests\bin\Debug\netcoreapp2.1\timetable.pdb
+C:\Users\Robin\Documents\Softwaredesign\Softwaredesign\timetable.Tests\obj\Debug\netcoreapp2.1\timetable.Tests.csprojAssemblyReference.cache
+C:\Users\Robin\Documents\Softwaredesign\Softwaredesign\timetable.Tests\obj\Debug\netcoreapp2.1\timetable.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Robin\Documents\Softwaredesign\Softwaredesign\timetable.Tests\obj\Debug\netcoreapp2.1\timetable.Tests.AssemblyInfoInputs.cache
+C:\Users\Robin\Documents\Softwaredesign\Softwaredesign\timetable.Tests\obj\Debug\netcoreapp2.1\timetable.Tests.AssemblyInfo.cs
+C:\Users\Robin\Documents\Softwaredesign\Softwaredesign\timetable.Tests\obj\Debug\netcoreapp2.1\timetable.Tests.csproj.CopyComplete
+C:\Users\Robin\Documents\Softwaredesign\Softwaredesign\timetable.Tests\obj\Debug\netcoreapp2.1\timetable.Tests.dll
+C:\Users\Robin\Documents\Softwaredesign\Softwaredesign\timetable.Tests\obj\Debug\netcoreapp2.1\timetable.Tests.pdb

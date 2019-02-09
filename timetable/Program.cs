@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace timetable
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -11,7 +11,7 @@ namespace timetable
             PersistenceDump.AddRooms();
             PersistenceDump.AddPeriods();
             PersistenceDump.AddCourses();
-            Console.WriteLine("Type yes if you want to do the calculation; otherwise the least recent calculated timetable is used.");
+            Console.WriteLine("Type yes if you want to do the calculation; otherwise the most recent calculated timetable is used.");
             Timetable timetable;
             if (Console.ReadLine() == "yes")
             {

@@ -56,18 +56,14 @@ namespace timetable
             computer.Add(Equipment.blackboard);
             computer.Add(Equipment.computer);
 
-            List<Equipment> standardWoVenetians = new List<Equipment>();
-            standardWoVenetians.Add(Equipment.beamer);
-            standardWoVenetians.Add(Equipment.whiteboard);
-            standardWoVenetians.Add(Equipment.blackboard);
             List<Equipment> vfx = new List<Equipment>();
             vfx.Add(Equipment.vfx);
 
             // FIRST SEMESTER
             Course aBwl = new Course(semesters[0], lecturers[20], "Allgemeine Betriebswirtschaftslehre");
             Course grdlUntGr = new Course(semesters[0], lecturers[20], "Grundlagen Unternehmensgründung");
-            aBwl.Requirements = standardWoVenetians;
-            grdlUntGr.Requirements = standardWoVenetians;
+            aBwl.Requirements = standard;
+            grdlUntGr.Requirements = standard;
             aBwl.SetSemester(semesters[1]);
             aBwl.SetSemester(semesters[2]);
             grdlUntGr.SetSemester(semesters[1]);
@@ -81,9 +77,9 @@ namespace timetable
             Course eiAP  = new Course(semesters[1], lecturers[21], "Entwicklung Interaktiver Anwendungen Praktikum");
             Course progPrak = new Course(semesters[0], lecturers[4], "Programmieren Praktikum");
             Course progPrakOmb = new Course(semesters[2], lecturers[18], "Programmieren Praktikum");
-            programmieren.Requirements = standardWoVenetians;
-            progOmb.Requirements = standardWoVenetians;
-            eiA.Requirements = standardWoVenetians;
+            programmieren.Requirements = standard;
+            progOmb.Requirements = standard;
+            eiA.Requirements = standard;
             eiAP.Requirements = computer;
             progPrak.Requirements = computer;
             progPrakOmb.Requirements = computer;
@@ -102,9 +98,9 @@ namespace timetable
             Course medienTechMib = new Course(semesters[0], lecturers[14], "Medientechnik Praktikum");            
             Course medienTechOmb = new Course(semesters[2], lecturers[19], "Medientechnik Praktikum");
             Course medienTechMkb = new Course(semesters[1], lecturers[19], "Medientechnik Praktikum");
-            audioTech.Requirements = standardWoVenetians;
-            videoTechMib.Requirements = standardWoVenetians;
-            videoTechOmb.Requirements = standardWoVenetians;
+            audioTech.Requirements = standard;
+            videoTechMib.Requirements = standard;
+            videoTechOmb.Requirements = standard;
             medienTechMib.Requirements = studio;
             medienTechOmb.Requirements = studio;
             medienTechMkb.Requirements = studio;
@@ -122,9 +118,9 @@ namespace timetable
             mathe1mib.SetSemester(semesters[2]);
             mathe1mibPrak.SetSemester(semesters[2]);
             phys1mib.SetSemester(semesters[2]);
-            mathe1mib.Requirements = standardWoVenetians;
-            mathe1mibPrak.Requirements = standardWoVenetians;
-            phys1mib.Requirements = standardWoVenetians;
+            mathe1mib.Requirements = standard;
+            mathe1mibPrak.Requirements = standard;
+            phys1mib.Requirements = standard;
 
             courses.Add(mathe1mib);
             courses.Add(mathe1mibPrak);
@@ -136,8 +132,8 @@ namespace timetable
             Course medPsych = new Course(semesters[0], lecturers[3], "Medienpsychologie");
             Course MedAn = new Course(semesters[1], lecturers[5], "Medienanalyse");
             Course grdlMedKonzSem = new Course(semesters[1], lecturers[6], "Grundlagen Medienkonzeption Seminar");
-            grundlagenMedienG.Requirements = standardWoVenetians;
-            grundlagenMedienGP.Requirements = standardWoVenetians;
+            grundlagenMedienG.Requirements = standard;
+            grundlagenMedienGP.Requirements = standard;
             medPsych.Requirements = standard;
             MedAn.Requirements = standard;
             grdlMedKonzSem.Requirements = standard;
@@ -161,8 +157,8 @@ namespace timetable
             Course cgPrak = new Course(semesters[3], lecturers[12], "Computergrafik und 3D Modellierung Praktikum");
             cg.SetSemester(semesters[4]); 
             cg.SetSemester(semesters[5]); 
-            cg.Requirements = standardWoVenetians;
-            mathe2mkb.Requirements = standardWoVenetians;
+            cg.Requirements = standard;
+            mathe2mkb.Requirements = standard;
             cgPrak.Requirements = computer;
             courses.Add(cg);
             courses.Add(cgPrak);
@@ -176,19 +172,19 @@ namespace timetable
             courses.Add(avProd);
             courses.Add(avProdPrak);
             avProdPrak.Requirements = vfx;
-            avProd.Requirements = standardWoVenetians;
+            avProd.Requirements = standard;
 
             Course eiA2 = new Course(semesters[4], lecturers[2], "Entwicklung Interaktiver Anwendungen II");
             Course eiA2Prak = new Course(semesters[4], lecturers[2], "Entwicklung Interaktiver Anwendungen II Praktikum");
             courses.Add(eiA2);
             courses.Add(eiA2Prak);
-            eiA2.Requirements = standardWoVenetians;
+            eiA2.Requirements = standard;
             eiA2Prak.Requirements = computer;
 
             Course UsExD = new Course(semesters[3], lecturers[10], "User Experience Design");
             Course UsExDPrak = new Course(semesters[3], lecturers[10], "User Experience Design Praktikum");
-            UsExD.Requirements = standardWoVenetians;
-            UsExDPrak.Requirements = standardWoVenetians;
+            UsExD.Requirements = standard;
+            UsExDPrak.Requirements = standard;
             UsExD.SetSemester(semesters[4]); 
             UsExD.SetSemester(semesters[5]); 
             UsExDPrak.SetSemester(semesters[4]); 
@@ -202,8 +198,8 @@ namespace timetable
             marketing.SetSemester(semesters[5]); 
             medienOeko.SetSemester(semesters[4]); 
             medienOeko.SetSemester(semesters[5]); 
-            marketing.Requirements = standardWoVenetians;
-            medienOeko.Requirements = standardWoVenetians;
+            marketing.Requirements = standard;
+            medienOeko.Requirements = standard;
 
             courses.Add(marketing);
             courses.Add(medienOeko);
@@ -211,9 +207,9 @@ namespace timetable
             Course mathe2mibSem = new Course(semesters[3], lecturers[15], "Mathematik und Simulation Seminar");
             Course mathe2mib = new Course(semesters[3], lecturers[11], "Mathematik und Simulation");
             Course mathe2mibPrak = new Course(semesters[3], lecturers[11], "Mathematik und Simulation Praktikum");
-            mathe2mibSem.Requirements = standardWoVenetians;
-            mathe2mib.Requirements = standardWoVenetians;
-            mathe2mibPrak.Requirements = standardWoVenetians;
+            mathe2mibSem.Requirements = standard;
+            mathe2mib.Requirements = standard;
+            mathe2mibPrak.Requirements = standard;
 
             courses.Add(mathe2mibSem);
             courses.Add(mathe2mib);
@@ -221,29 +217,29 @@ namespace timetable
 
             Course gisMib = new Course(semesters[3], lecturers[23], "Grundlagen Interaktiver Systeme");
             Course gis2MibPrak = new Course(semesters[3], lecturers[23], "Grundlagen Interaktiver Systeme Praktikum");
-            gisMib.Requirements = standardWoVenetians;
+            gisMib.Requirements = standard;
             gis2MibPrak.Requirements = computer;
             courses.Add(gisMib);
             courses.Add(gis2MibPrak);
 
             Course gisOmbPrak = new Course(semesters[5], lecturers[18], "Grundlagen Interaktiver Systeme");
             Course gis2OmbbPrak = new Course(semesters[5], lecturers[18], "Grundlagen Interaktiver Systeme Praktikum");
-            gisOmbPrak.Requirements = standardWoVenetians;
+            gisOmbPrak.Requirements = standard;
             gis2OmbbPrak.Requirements = computer;
             courses.Add(gisOmbPrak);
             courses.Add(gis2OmbbPrak);
 
             Course mathe2omb = new Course(semesters[5], lecturers[11], "Geometrische und statische Modellierung");
             Course mathe2ombPrak = new Course(semesters[5], lecturers[11], "Geometrische und statische Modellierung Praktikum");
-            mathe2omb.Requirements = standardWoVenetians;
-            mathe2ombPrak.Requirements = standardWoVenetians;
+            mathe2omb.Requirements = standard;
+            mathe2ombPrak.Requirements = standard;
             courses.Add(mathe2omb);
             courses.Add(mathe2ombPrak);
 
             // FOURTH SEMESTER
 
             Course project = new Course(semesters[9], lecturers[13], "Projektmanagement und Softskills");
-            project.Requirements = standardWoVenetians;
+            project.Requirements = standard;
             project.SetSemester(semesters[10]);
             project.SetSemester(semesters[11]);
             courses.Add(project);
@@ -256,8 +252,8 @@ namespace timetable
             Course softwaredesignPrak = new Course(semesters[9], lecturers[2], "Softwaredesign Praktikum");
             gdv.Requirements = standard;
             gdvPrak.Requirements = computer;
-            komSys.Requirements = standardWoVenetians;
-            komSysPrak.Requirements = standardWoVenetians;
+            komSys.Requirements = standard;
+            komSysPrak.Requirements = standard;
             softwaredesign.Requirements = computer;
             softwaredesignPrak.Requirements = computer;
             courses.Add(gdv);
@@ -273,12 +269,12 @@ namespace timetable
             Course webtechPrak = new Course(semesters[11], lecturers[1], "Webtechnologie Praktikum");
             Course resWebDes = new Course(semesters[11], lecturers[10], "Responsive Web Design");
             Course resWebDesPrak = new Course(semesters[11], lecturers[10], "Responsive Web Design Praktikum");
-            ebusi.Requirements = standardWoVenetians;
-            medMomWi.Requirements = standardWoVenetians;
-            webtech.Requirements = standardWoVenetians;
-            webtechPrak.Requirements = standardWoVenetians;
-            resWebDes.Requirements = standardWoVenetians;
-            resWebDesPrak.Requirements = standardWoVenetians;
+            ebusi.Requirements = standard;
+            medMomWi.Requirements = standard;
+            webtech.Requirements = standard;
+            webtechPrak.Requirements = standard;
+            resWebDes.Requirements = standard;
+            resWebDesPrak.Requirements = computer;
             courses.Add(ebusi);
             courses.Add(medMomWi);
             courses.Add(webtech);
@@ -292,12 +288,12 @@ namespace timetable
             Course eLearnPrak = new Course(semesters[10], lecturers[3], "E-Learning und Online-Learning Praktikum");
             Course storyTell = new Course(semesters[10], lecturers[24], "Storytelling");
             Course creaWrit = new Course(semesters[10], lecturers[24], "Creative Writing");
-            konz.Requirements = standardWoVenetians;
-            ideenEnt.Requirements = standardWoVenetians;
-            eLearn.Requirements = standardWoVenetians;
-            eLearnPrak.Requirements = standardWoVenetians;
-            storyTell.Requirements = standardWoVenetians;
-            creaWrit.Requirements = standardWoVenetians;
+            konz.Requirements = standard;
+            ideenEnt.Requirements = standard;
+            eLearn.Requirements = standard;
+            eLearnPrak.Requirements = standard;
+            storyTell.Requirements = standard;
+            creaWrit.Requirements = standard;
             courses.Add(konz);
             courses.Add(ideenEnt);
             courses.Add(eLearn);
@@ -309,10 +305,10 @@ namespace timetable
             Course vertAn = new Course(semesters[12], lecturers[4], "Verteilte Anwendungen");
             Course vertAnPrak = new Course(semesters[12], lecturers[4], "Verteile Anwendungen Praktikum");
             Course digAv = new Course(semesters[12], lecturers[8], "Digitale AV-Technik");
-            datMed.Requirements = standardWoVenetians;
-            vertAn.Requirements = standardWoVenetians;
-            vertAnPrak.Requirements = standardWoVenetians;
-            digAv.Requirements = standardWoVenetians;
+            datMed.Requirements = standard;
+            vertAn.Requirements = standard;
+            vertAnPrak.Requirements = standard;
+            digAv.Requirements = standard;
 
             courses.Add(datMed);
             courses.Add(vertAn);
@@ -323,9 +319,9 @@ namespace timetable
             Course intDesPrak = new Course(semesters[14], lecturers[25], "Interface Design Praktikum");
             Course streamAn = new Course(semesters[14], lecturers[8], "Streaming Anwendungen");
             Course streamAnPrak = new Course(semesters[14], lecturers[8], "Streaming Anwendungen Praktikum");
-            intDes.Requirements = standardWoVenetians;
+            intDes.Requirements = standard;
             intDesPrak.Requirements = computer;
-            streamAn.Requirements = standardWoVenetians;
+            streamAn.Requirements = standard;
             streamAnPrak.Requirements = computer;
 
             courses.Add(intDes);
@@ -336,9 +332,9 @@ namespace timetable
             Course intDesMkb = new Course(semesters[13], lecturers[10], "Interface Design");
             Course intDesMkbPrak = new Course(semesters[13], lecturers[10], "Interface Design Praktikum");
             Course opMark = new Course(semesters[13], lecturers[13], "Operatives Marketing");
-            intDesMkb.Requirements = standardWoVenetians;
+            intDesMkb.Requirements = standard;
             intDesMkbPrak.Requirements = computer;
-            opMark.Requirements = standardWoVenetians;
+            opMark.Requirements = standard;
             courses.Add(intDesMkb);
             courses.Add(intDesMkbPrak);
             courses.Add(opMark);
@@ -350,7 +346,7 @@ namespace timetable
             optionalCourses.Add(spieleentwicklung);
 
             OptionalCourse deepLearningI = new OptionalCourse(lecturers[11], "Introduction to Deep Learning", 8);
-            deepLearningI.Requirements = standardWoVenetians;
+            deepLearningI.Requirements = standard;
             optionalCourses.Add(deepLearningI);
 
             OptionalCourse deepLearningIPrak = new OptionalCourse(lecturers[11], "Introduction to Deep Learning", 17);
@@ -358,7 +354,7 @@ namespace timetable
             optionalCourses.Add(deepLearningIPrak);
 
             OptionalCourse deepLearningII = new OptionalCourse(lecturers[11], "Introduction to Deep Learning II", 20);
-            deepLearningII.Requirements = standardWoVenetians;
+            deepLearningII.Requirements = standard;
             optionalCourses.Add(deepLearningII);
 
             OptionalCourse liveMixSoundDes = new OptionalCourse(lecturers[14], "Livemix und Sounddesign", 22);
@@ -366,15 +362,15 @@ namespace timetable
             optionalCourses.Add(liveMixSoundDes);
 
             OptionalCourse photographie = new OptionalCourse(lecturers[5], "Photographie", 8);
-            photographie.Requirements = standardWoVenetians;
+            photographie.Requirements = standard;
             optionalCourses.Add(photographie);
 
             OptionalCourse vFXCompositing  = new OptionalCourse(lecturers[8], "VFX und Compositing", 18);
-            vFXCompositing.Requirements = standardWoVenetians;
+            vFXCompositing.Requirements = standard;
             optionalCourses.Add(vFXCompositing);
 
             OptionalCourse medGegenkultur = new OptionalCourse(lecturers[22], "Mediale Gegenkultur", 23);
-            medGegenkultur.Requirements = standardWoVenetians;
+            medGegenkultur.Requirements = standard;
             optionalCourses.Add(medGegenkultur);
 
             JsonPersistence.SerializeOptionalCourses(optionalCourses);
@@ -418,36 +414,32 @@ namespace timetable
             computer.Add(Equipment.blackboard);
             computer.Add(Equipment.computer);
 
-            List<Equipment> standardWoVenetians = new List<Equipment>();
-            standardWoVenetians.Add(Equipment.beamer);
-            standardWoVenetians.Add(Equipment.whiteboard);
-            standardWoVenetians.Add(Equipment.electricalVenetians);
-            standardWoVenetians.Add(Equipment.blackboard);
             List<Equipment> vfx = new List<Equipment>();
             vfx.Add(Equipment.vfx);
 
             rooms.Add(new Room("i0.08", vfx, 80));
-            rooms.Add(new Room("i0.13", standardWoVenetians, 60));
-            rooms.Add(new Room("i0.14", standardWoVenetians, 60));
-            rooms.Add(new Room("i0.15", standardWoVenetians, 60));
-            rooms.Add(new Room("i0.16", standardWoVenetians, 120));
-            rooms.Add(new Room("i0.17", standardWoVenetians, 120));
+            rooms.Add(new Room("i0.13", standard, 60));
+            rooms.Add(new Room("i0.14", standard, 60));
+            rooms.Add(new Room("i0.15", standard, 80));
+            rooms.Add(new Room("i0.16", standard, 120));
+            rooms.Add(new Room("i0.17", standard, 120));
             rooms.Add(new Room("i1.17", computer, 40));
             rooms.Add(new Room("i1.18", vfx, 80));
             rooms.Add(new Room("i1.19", computer, 40));
             rooms.Add(new Room("l1.05", standard, 40));
             rooms.Add(new Room("l1.06", standard, 60));
             rooms.Add(new Room("l2.05", standard, 40));
-            rooms.Add(new Room("l2.07", standard, 40));
+            rooms.Add(new Room("l2.07", computer, 40));
             rooms.Add(new Room("l2.08", computer, 25));
             rooms.Add(new Room("studio", studio, 40));
+            rooms.Add(new Room("c0.01", computer, 40));
 
             JsonPersistence.SerializeRooms(rooms);
         }
 
         public static void AddPeriods()
         {
-            Period[] periods  = new Period[10];
+            Period[] periods  = new Period[25];
             for (int i = 0; i < periods.Length; i++)
             {
                 periods[i] = new Period();

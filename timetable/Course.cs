@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using Newtonsoft.Json;
 
 namespace timetable {
-    class Course {
+    public class Course {
         [JsonConstructor]
         public Course (List<Semester> semester, Lecturer lecturer, string name, int size) 
         {
