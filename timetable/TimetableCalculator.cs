@@ -26,7 +26,7 @@ namespace timetable
 
             if (leftoverCourses.Count > 0)
             {
-                PutLeftoverCourses(leftoverCourses, periods, rooms);
+                RetryLeftoverCourses(leftoverCourses, periods, rooms);
             }
 
             timetable.Periods = periods;
@@ -134,19 +134,18 @@ namespace timetable
                     {
                         foreach (Semester semesterToAd in course.Semesters)
                         {
-                            if(semesterAdded.Id == semesterToAd.Id)
+                            if (semesterAdded.Id == semesterToAd.Id)
                             {
                                 isUnoccupied = false;
                             }
                         }
-                        
                     }
                 }
             }
             return isUnoccupied;
         }
 
-        private static void PutLeftoverCourses(List<Course> leftoverCourses, Period[] periods, List<Room> rooms)
+        private static void RetryLeftoverCourses(List<Course> leftoverCourses, Period[] periods, List<Room> rooms)
         {
             int iterations = 0;
             for (int i = 0; i < 500; i++)
@@ -211,12 +210,12 @@ namespace timetable
                 List<Room> freeRooms = GetFreeRoomsAtPeriod(period, rooms);
                 bool semesterIsUnoccupied = CheckWhetherSemesterIsOccupied(period.Elements, unsuccessfulCourse);
 
-                bool lecturerIsOccupied = CheckWhetherLecturerIsOccupied(coursesAtPeriod, courseElement.Course.Lecturer);
+                bool lecturerIsUnoccupied = CheckWhetherLecturerIsOccupied(coursesAtPeriod, courseElement.Course.Lecturer);
                 foreach (Room freeRoom in freeRooms)
                 {
                     bool hasRequirements = CheckWhetherEquipmentSuffices(freeRoom, unsuccessfulCourse);
 
-                    if (freeRoom.Size >= unsuccessfulCourse.Size && lecturerIsOccupied && hasRequirements && semesterIsUnoccupied)
+                    if (freeRoom.Size >= unsuccessfulCourse.Size && lecturerIsUnoccupied && hasRequirements && semesterIsUnoccupied)
                     {
                         period.Elements.Add(new SchedulableElement(unsuccessfulCourse, freeRoom));
                         wasSetable = true;
@@ -272,7 +271,7 @@ namespace timetable
             {
                 foreach (Room thisRoom in allRooms.ToList())
                 {
-                    if(course.Room.Name == thisRoom.Name)
+                    if (course.Room.Name == thisRoom.Name)
                     {
                         freeRooms.Remove(thisRoom);
                     }

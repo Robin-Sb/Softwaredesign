@@ -10,9 +10,9 @@ namespace timetable
             PersistenceDump.AddSemester();
             PersistenceDump.AddRooms();
             PersistenceDump.AddPeriods();
-            PersistenceDump.AddCourses();
-            Console.WriteLine("Type yes if you want to do the calculation; otherwise the most recent calculated timetable is used.");
+            PersistenceDump.AddCourses();            
             Timetable timetable;
+            Console.WriteLine("Type yes if you want to do the calculation; otherwise the most recent calculated timetable is used.");
             if (Console.ReadLine() == "yes")
             {
                 timetable = TimetableCalculator.CalculateTimetable();
