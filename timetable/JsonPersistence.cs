@@ -9,7 +9,6 @@ namespace timetable
     {
         static JsonSerializerSettings settings = new JsonSerializerSettings
         {
-            // TypeNameHandling = TypeNameHandling.Objects,
             Formatting = Formatting.Indented
         };
 

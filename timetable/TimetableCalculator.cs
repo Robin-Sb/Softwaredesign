@@ -8,7 +8,7 @@ namespace timetable
     {
         public static Timetable CalculateTimetable() 
         {
-            List<Course> courses = GetSortedCourses();
+            List<Course> courses = GetSortedCourses(JsonPersistence.DeserializeCourses());
             Timetable timetable = new Timetable();
             Period[] periods = JsonPersistence.DeserializePeriods();
             List<Room> rooms = GetSortedRooms(JsonPersistence.DeserializeRooms());
@@ -23,6 +23,7 @@ namespace timetable
                     leftoverCourses.Add(leftover);
                 }
             }
+
             if (leftoverCourses.Count > 0)
             {
                 PutLeftoverCourses(leftoverCourses, periods, rooms);
@@ -34,14 +35,12 @@ namespace timetable
         }
         private static List<Room> GetSortedRooms(List<Room> rooms)
         {
-            //List<Room> rooms = JsonPersistence.DeserializeRooms();
             rooms.Sort((x, y) => x.Size.CompareTo(y.Size));
             return rooms;
         }
 
-        private static List<Course> GetSortedCourses()
+        private static List<Course> GetSortedCourses(List<Course> courses)
         {
-            List<Course> courses = JsonPersistence.DeserializeCourses();
             courses.Sort((x, y) => y.Size.CompareTo(x.Size));
             return courses;
         }
@@ -52,21 +51,22 @@ namespace timetable
             for (int i = 0; i < periods.Length; i++)
             {
                 bool isUnoccupied = CheckWhetherSemesterIsOccupied(periods[i].Elements, course);
-                bool canSet = true;
+                bool lecturerIsOccupied = true;
                 if (isUnoccupied)
                 {
+                    List<SchedulableElement> coursesAtPeriod = periods[i].Elements;
+                    if (coursesAtPeriod != null) 
+                    {
+                        lecturerIsOccupied = CheckWhetherLecturerIsOccupied(coursesAtPeriod, course.Lecturer);
+                    } else {
+                        coursesAtPeriod = new List<SchedulableElement>();
+                    }
+
                     foreach (Room currentRoom in rooms) 
                     {
-                        List<SchedulableElement> coursesAtPeriod = periods[i].Elements;
-                        if (coursesAtPeriod != null) 
-                        {
-                            canSet = CheckWhetherLecturerIsOccupied(coursesAtPeriod, course.Lecturer);
-                        } else {
-                            coursesAtPeriod = new List<SchedulableElement>();
-                        }
                         bool hasRequirements = CheckWhetherEquipmentSuffices(currentRoom, course);
 
-                        if (!currentRoom.Occupied[i] && canSet && currentRoom.Size >= course.Size && hasRequirements)
+                        if (!currentRoom.Occupied[i] && lecturerIsOccupied && currentRoom.Size >= course.Size && hasRequirements)
                         {
                             if(!isTestRun)
                             {
@@ -84,7 +84,7 @@ namespace timetable
                     }
                 }
             }
-            if(!isSet)
+            if (!isSet)
             {
                 return course;
             }
@@ -95,7 +95,7 @@ namespace timetable
         {
             for (int k = 0; k < coursesAtPeriod.Count; k++)
             {
-                if (coursesAtPeriod[k].Course.Lecturer.FullName == lecturer.FullName)
+                if (coursesAtPeriod[k].Course.Lecturer.Id == lecturer.Id)
                 {
                     return false;
                 }
@@ -105,9 +105,9 @@ namespace timetable
         private static bool CheckWhetherEquipmentSuffices(Room currentRoom, Course course)
         {
             bool hasRequirements = true;
-            for (int l = 0; l < course.Requirements.Count; l++)
+            for (int l = 0; l < course.Requirements.Count; l++) 
             {
-                if(!currentRoom.Equipment.Contains(course.Requirements[l]))
+                if (!currentRoom.Equipment.Contains(course.Requirements[l]))
                 {
                     hasRequirements = false;
                 }
@@ -115,7 +115,7 @@ namespace timetable
 
             foreach (Equipment equipment in currentRoom.Equipment)
             {
-                if(!course.Requirements.Contains(equipment))
+                if (!course.Requirements.Contains(equipment))
                 {
                     hasRequirements = false;
                 }
@@ -200,16 +200,16 @@ namespace timetable
         private static bool PutLeftoverCourseOnOldPosition(Period period, SchedulableElement blockingCourse, Course unsuccessfulCourse, List<Room> rooms)
         {
             bool wasSetable = false;
-            List<Room> freeRooms = GetFreeRoomsAtPeriod(period, rooms);
             List<SchedulableElement> coursesAtPeriod = period.Elements;
-            bool semesterIsUnoccupied = CheckWhetherSemesterIsOccupied(period.Elements, unsuccessfulCourse);
             foreach (SchedulableElement courseElement in period.Elements.ToList())
             {
-                if (courseElement == blockingCourse)
+                if (courseElement.Id == blockingCourse.Id)
                 {
                     period.Elements.Remove(blockingCourse);
                     period.RemovedElements.Add(blockingCourse.Id);
                 }
+                List<Room> freeRooms = GetFreeRoomsAtPeriod(period, rooms);
+                bool semesterIsUnoccupied = CheckWhetherSemesterIsOccupied(period.Elements, unsuccessfulCourse);
 
                 bool lecturerIsOccupied = CheckWhetherLecturerIsOccupied(coursesAtPeriod, courseElement.Course.Lecturer);
                 foreach (Room freeRoom in freeRooms)

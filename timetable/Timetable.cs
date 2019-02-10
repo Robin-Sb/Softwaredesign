@@ -26,7 +26,7 @@ namespace timetable
             int grade = 0;
             int lecturerId = 0;
             int semesterId = 0;
-            List<Semester> semester = JsonPersistence.DeserializeSemesters();
+            List<Semester> semesters = JsonPersistence.DeserializeSemesters();
             if (splittedQuery.Length == 1)
             {
                 searchForSemester = false;
@@ -43,7 +43,7 @@ namespace timetable
                     Console.WriteLine("Grade needs to be a number. Maybe you also forgot to add a space between major and grade?");
                     return;
                 }
-                Semester selectedSemester = semester.Find(x => x.Major == splittedQuery[0] && x.Grade == grade);
+                Semester selectedSemester = semesters.Find(x => x.Major == splittedQuery[0] && x.Grade == grade);
                 semesterId = selectedSemester.Id;
             }
             EmitTimetable(searchForSemester, semesterId, lecturerId);
@@ -62,7 +62,7 @@ namespace timetable
 
                 foreach (SchedulableElement course in period.Elements)
                 {
-                    if(searchForSemester)
+                    if (searchForSemester)
                     {
                         if (course.Course.Semesters.Exists(x => x.Id == semesterId))
                         {
@@ -83,7 +83,7 @@ namespace timetable
             {
                 Console.WriteLine("Type yes if you want see which optional courses you can still take.");
 
-                if(Console.ReadLine() == "yes")
+                if (Console.ReadLine() == "yes")
                 {
                     EmitOptionalCourses(occupiedPeriods);
                 }

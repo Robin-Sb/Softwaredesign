@@ -8,43 +8,31 @@
       "Elements": [
         {
           "Room": {
-            "Name": "i0.16",
+            "Name": "l1.05",
             "Equipment": [
               4,
               3,
               2,
               5
             ],
-            "Size": 120
+            "Size": 40
           },
           "Course": {
-            "Size": 120,
-            "Name": "Allgemeine Betriebswirtschaftslehre",
+            "Size": 28,
+            "Name": "Creative Writing",
             "Semesters": [
               {
-                "Major": "MIB",
-                "Id": 1,
-                "Grade": 1,
-                "Size": 40
-              },
-              {
                 "Major": "MKB",
-                "Id": 2,
-                "Grade": 1,
-                "Size": 40
-              },
-              {
-                "Major": "OMB",
-                "Id": 3,
-                "Grade": 1,
-                "Size": 40
+                "Id": 11,
+                "Grade": 4,
+                "Size": 28
               }
             ],
             "Lecturer": {
-              "FirstName": "Klaus",
-              "Id": 21,
-              "LastName": "Schuster",
-              "FullName": "Klaus Schuster"
+              "FirstName": "Ralf",
+              "Id": 25,
+              "LastName": "Bieber",
+              "FullName": "Ralf Bieber"
             },
             "Requirements": [
               4,
@@ -53,7 +41,233 @@
               5
             ]
           },
-          "Id": 1
+          "Id": 35
+        },
+        {
+          "Room": {
+            "Name": "l2.05",
+            "Equipment": [
+              4,
+              3,
+              2,
+              5
+            ],
+            "Size": 40
+          },
+          "Course": {
+            "Size": 28,
+            "Name": "Webtechnologie Praktikum",
+            "Semesters": [
+              {
+                "Major": "OMB",
+                "Id": 12,
+                "Grade": 4,
+                "Size": 28
+              }
+            ],
+            "Lecturer": {
+              "FirstName": "Marko",
+              "Id": 2,
+              "LastName": "Kaufmann",
+              "FullName": "Marko Kaufmann"
+            },
+            "Requirements": [
+              4,
+              3,
+              2,
+              5
+            ]
+          },
+          "Id": 42
+        },
+        {
+          "Room": {
+            "Name": "i1.17",
+            "Equipment": [
+              4,
+              3,
+              2,
+              5,
+              0
+            ],
+            "Size": 40
+          },
+          "Course": {
+            "Size": 28,
+            "Name": "Softwaredesign Praktikum",
+            "Semesters": [
+              {
+                "Major": "MIB",
+                "Id": 10,
+                "Grade": 4,
+                "Size": 28
+              }
+            ],
+            "Lecturer": {
+              "FirstName": "Eric",
+              "Id": 3,
+              "LastName": "Schroeder",
+              "FullName": "Eric Schroeder"
+            },
+            "Requirements": [
+              4,
+              3,
+              2,
+              5,
+              0
+            ]
+          },
+          "Id": 46
+        },
+        {
+          "Room": {
+            "Name": "l2.08",
+            "Equipment": [
+              4,
+              3,
+              2,
+              5,
+              0
+            ],
+            "Size": 25
+          },
+          "Course": {
+            "Size": 25,
+            "Name": "Streaming Anwendungen Praktikum",
+            "Semesters": [
+              {
+                "Major": "OMB",
+                "Id": 15,
+                "Grade": 5,
+                "Size": 25
+              }
+            ],
+            "Lecturer": {
+              "FirstName": "Stephan",
+              "Id": 9,
+              "LastName": "Pfeiffer",
+              "FullName": "Stephan Pfeiffer"
+            },
+            "Requirements": [
+              4,
+              3,
+              2,
+              5,
+              0
+            ]
+          },
+          "Id": 54
+        },
+        {
+          "Room": {
+            "Name": "i0.13",
+            "Equipment": [
+              4,
+              3,
+              2,
+              5
+            ],
+            "Size": 60
+          },
+          "Course": {
+            "Size": 25,
+            "Name": "Datenverarbeitung in der Medienproduktion",
+            "Semesters": [
+              {
+                "Major": "MIB",
+                "Id": 13,
+                "Grade": 5,
+                "Size": 25
+              }
+            ],
+            "Lecturer": {
+              "FirstName": "Thorsten",
+              "Id": 13,
+              "LastName": "Kaiser",
+              "FullName": "Thorsten Kaiser"
+            },
+            "Requirements": [
+              4,
+              3,
+              2,
+              5
+            ]
+          },
+          "Id": 57
+        },
+        {
+          "Room": {
+            "Name": "i0.14",
+            "Equipment": [
+              4,
+              3,
+              2,
+              5
+            ],
+            "Size": 60
+          },
+          "Course": {
+            "Size": 25,
+            "Name": "Operatives Marketing",
+            "Semesters": [
+              {
+                "Major": "MKB",
+                "Id": 14,
+                "Grade": 5,
+                "Size": 25
+              }
+            ],
+            "Lecturer": {
+              "FirstName": "Markus",
+              "Id": 14,
+              "LastName": "Richter",
+              "FullName": "Markus Richter"
+            },
+            "Requirements": [
+              4,
+              3,
+              2,
+              5
+            ]
+          },
+          "Id": 63
+        },
+        {
+          "Room": {
+            "Name": "l1.06",
+            "Equipment": [
+              4,
+              3,
+              2,
+              5
+            ],
+            "Size": 60
+          },
+          "Course": {
+            "Size": 40,
+            "Name": "Programmieren",
+            "Semesters": [
+              {
+                "Major": "OMB",
+                "Id": 3,
+                "Grade": 1,
+                "Size": 40
+              }
+            ],
+            "Lecturer": {
+              "FirstName": "Erik",
+              "Id": 19,
+              "LastName": "Seiler",
+              "FullName": "Erik Seiler"
+            },
+            "Requirements": [
+              4,
+              3,
+              2,
+              5
+            ]
+          },
+          "Id": 64
         },
         {
           "Room": {
@@ -103,7 +317,15 @@
             ]
           },
           "Id": 6
-        },
+        }
+      ]
+    },
+    {
+      "StartTime": "9:30",
+      "EndTime": "11:00",
+      "Weekday": "monday",
+      "Number": 1,
+      "Elements": [
         {
           "Room": {
             "Name": "l1.05",
@@ -117,7 +339,7 @@
           },
           "Course": {
             "Size": 28,
-            "Name": "Creative Writing",
+            "Name": "Storytelling",
             "Semesters": [
               {
                 "Major": "MKB",
@@ -139,7 +361,7 @@
               5
             ]
           },
-          "Id": 44
+          "Id": 36
         },
         {
           "Room": {
@@ -154,7 +376,7 @@
           },
           "Course": {
             "Size": 28,
-            "Name": "Webtechnologie Praktikum",
+            "Name": "Medien- und Kommunikationswirtschaft",
             "Semesters": [
               {
                 "Major": "OMB",
@@ -164,10 +386,10 @@
               }
             ],
             "Lecturer": {
-              "FirstName": "Marko",
-              "Id": 2,
-              "LastName": "Kaufmann",
-              "FullName": "Marko Kaufmann"
+              "FirstName": "Erik",
+              "Id": 23,
+              "LastName": "Osterhagen",
+              "FullName": "Erik Osterhagen"
             },
             "Requirements": [
               4,
@@ -176,7 +398,7 @@
               5
             ]
           },
-          "Id": 51
+          "Id": 44
         },
         {
           "Room": {
@@ -192,7 +414,7 @@
           },
           "Course": {
             "Size": 28,
-            "Name": "Softwaredesign Praktikum",
+            "Name": "Softwaredesign",
             "Semesters": [
               {
                 "Major": "MIB",
@@ -215,23 +437,22 @@
               0
             ]
           },
-          "Id": 55
+          "Id": 47
         },
         {
           "Room": {
-            "Name": "l2.08",
+            "Name": "i0.13",
             "Equipment": [
               4,
               3,
               2,
-              5,
-              0
+              5
             ],
-            "Size": 25
+            "Size": 60
           },
           "Course": {
             "Size": 25,
-            "Name": "Streaming Anwendungen Praktikum",
+            "Name": "Streaming Anwendungen",
             "Semesters": [
               {
                 "Major": "OMB",
@@ -250,48 +471,10 @@
               4,
               3,
               2,
-              5,
-              0
-            ]
-          },
-          "Id": 63
-        },
-        {
-          "Room": {
-            "Name": "i0.13",
-            "Equipment": [
-              4,
-              3,
-              2,
-              5
-            ],
-            "Size": 60
-          },
-          "Course": {
-            "Size": 25,
-            "Name": "Datenverarbeitung in der Medienproduktion",
-            "Semesters": [
-              {
-                "Major": "MIB",
-                "Id": 13,
-                "Grade": 5,
-                "Size": 25
-              }
-            ],
-            "Lecturer": {
-              "FirstName": "Thorsten",
-              "Id": 13,
-              "LastName": "Kaiser",
-              "FullName": "Thorsten Kaiser"
-            },
-            "Requirements": [
-              4,
-              3,
-              2,
               5
             ]
           },
-          "Id": 66
+          "Id": 55
         },
         {
           "Room": {
@@ -306,20 +489,20 @@
           },
           "Course": {
             "Size": 25,
-            "Name": "Operatives Marketing",
+            "Name": "Verteile Anwendungen Praktikum",
             "Semesters": [
               {
-                "Major": "MKB",
-                "Id": 14,
+                "Major": "MIB",
+                "Id": 13,
                 "Grade": 5,
                 "Size": 25
               }
             ],
             "Lecturer": {
-              "FirstName": "Markus",
-              "Id": 14,
-              "LastName": "Richter",
-              "FullName": "Markus Richter"
+              "FirstName": "Felix",
+              "Id": 5,
+              "LastName": "Cole",
+              "FullName": "Felix Cole"
             },
             "Requirements": [
               4,
@@ -328,43 +511,23 @@
               5
             ]
           },
-          "Id": 72
-        }
-      ]
-    },
-    {
-      "StartTime": "9:30",
-      "EndTime": "11:00",
-      "Weekday": "monday",
-      "Number": 1,
-      "Elements": [
+          "Id": 59
+        },
         {
           "Room": {
-            "Name": "i0.16",
+            "Name": "i0.15",
             "Equipment": [
               4,
               3,
               2,
               5
             ],
-            "Size": 120
+            "Size": 80
           },
           "Course": {
-            "Size": 120,
-            "Name": "Medienpsychologie",
+            "Size": 40,
+            "Name": "Programmieren",
             "Semesters": [
-              {
-                "Major": "MIB",
-                "Id": 1,
-                "Grade": 1,
-                "Size": 40
-              },
-              {
-                "Major": "MKB",
-                "Id": 2,
-                "Grade": 1,
-                "Size": 40
-              },
               {
                 "Major": "OMB",
                 "Id": 3,
@@ -373,10 +536,10 @@
               }
             ],
             "Lecturer": {
-              "FirstName": "Uwe",
-              "Id": 4,
-              "LastName": "Freud",
-              "FullName": "Uwe Freud"
+              "FirstName": "Erik",
+              "Id": 19,
+              "LastName": "Seiler",
+              "FullName": "Erik Seiler"
             },
             "Requirements": [
               4,
@@ -385,7 +548,7 @@
               5
             ]
           },
-          "Id": 2
+          "Id": 65
         },
         {
           "Room": {
@@ -435,7 +598,15 @@
             ]
           },
           "Id": 7
-        },
+        }
+      ]
+    },
+    {
+      "StartTime": "11:15",
+      "EndTime": "12:45",
+      "Weekday": "monday",
+      "Number": 2,
+      "Elements": [
         {
           "Room": {
             "Name": "l1.05",
@@ -449,7 +620,7 @@
           },
           "Course": {
             "Size": 28,
-            "Name": "Storytelling",
+            "Name": "E-Learning und Online-Learning Praktikum",
             "Semesters": [
               {
                 "Major": "MKB",
@@ -459,10 +630,10 @@
               }
             ],
             "Lecturer": {
-              "FirstName": "Ralf",
-              "Id": 25,
-              "LastName": "Bieber",
-              "FullName": "Ralf Bieber"
+              "FirstName": "Uwe",
+              "Id": 4,
+              "LastName": "Freud",
+              "FullName": "Uwe Freud"
             },
             "Requirements": [
               4,
@@ -471,7 +642,7 @@
               5
             ]
           },
-          "Id": 45
+          "Id": 37
         },
         {
           "Room": {
@@ -486,7 +657,7 @@
           },
           "Course": {
             "Size": 28,
-            "Name": "Medien- und Kommunikationswirtschaft",
+            "Name": "E-Business",
             "Semesters": [
               {
                 "Major": "OMB",
@@ -496,10 +667,10 @@
               }
             ],
             "Lecturer": {
-              "FirstName": "Erik",
-              "Id": 23,
-              "LastName": "Osterhagen",
-              "FullName": "Erik Osterhagen"
+              "FirstName": "Markus",
+              "Id": 14,
+              "LastName": "Richter",
+              "FullName": "Markus Richter"
             },
             "Requirements": [
               4,
@@ -508,46 +679,7 @@
               5
             ]
           },
-          "Id": 53
-        },
-        {
-          "Room": {
-            "Name": "i1.17",
-            "Equipment": [
-              4,
-              3,
-              2,
-              5,
-              0
-            ],
-            "Size": 40
-          },
-          "Course": {
-            "Size": 28,
-            "Name": "Softwaredesign",
-            "Semesters": [
-              {
-                "Major": "MIB",
-                "Id": 10,
-                "Grade": 4,
-                "Size": 28
-              }
-            ],
-            "Lecturer": {
-              "FirstName": "Eric",
-              "Id": 3,
-              "LastName": "Schroeder",
-              "FullName": "Eric Schroeder"
-            },
-            "Requirements": [
-              4,
-              3,
-              2,
-              5,
-              0
-            ]
-          },
-          "Id": 56
+          "Id": 45
         },
         {
           "Room": {
@@ -561,12 +693,88 @@
             "Size": 60
           },
           "Course": {
+            "Size": 28,
+            "Name": "Kommunikationssysteme Praktikum",
+            "Semesters": [
+              {
+                "Major": "MIB",
+                "Id": 10,
+                "Grade": 4,
+                "Size": 28
+              }
+            ],
+            "Lecturer": {
+              "FirstName": "Marko",
+              "Id": 2,
+              "LastName": "Kaufmann",
+              "FullName": "Marko Kaufmann"
+            },
+            "Requirements": [
+              4,
+              3,
+              2,
+              5
+            ]
+          },
+          "Id": 48
+        },
+        {
+          "Room": {
+            "Name": "l2.08",
+            "Equipment": [
+              4,
+              3,
+              2,
+              5,
+              0
+            ],
+            "Size": 25
+          },
+          "Course": {
             "Size": 25,
-            "Name": "Streaming Anwendungen",
+            "Name": "Interface Design Praktikum",
             "Semesters": [
               {
                 "Major": "OMB",
                 "Id": 15,
+                "Grade": 5,
+                "Size": 25
+              }
+            ],
+            "Lecturer": {
+              "FirstName": "Max",
+              "Id": 26,
+              "LastName": "Engenhart",
+              "FullName": "Max Engenhart"
+            },
+            "Requirements": [
+              4,
+              3,
+              2,
+              5,
+              0
+            ]
+          },
+          "Id": 56
+        },
+        {
+          "Room": {
+            "Name": "i0.14",
+            "Equipment": [
+              4,
+              3,
+              2,
+              5
+            ],
+            "Size": 60
+          },
+          "Course": {
+            "Size": 25,
+            "Name": "Digitale AV-Technik",
+            "Semesters": [
+              {
+                "Major": "MIB",
+                "Id": 13,
                 "Grade": 5,
                 "Size": 25
               }
@@ -584,53 +792,8 @@
               5
             ]
           },
-          "Id": 64
+          "Id": 58
         },
-        {
-          "Room": {
-            "Name": "i0.14",
-            "Equipment": [
-              4,
-              3,
-              2,
-              5
-            ],
-            "Size": 60
-          },
-          "Course": {
-            "Size": 25,
-            "Name": "Verteile Anwendungen Praktikum",
-            "Semesters": [
-              {
-                "Major": "MIB",
-                "Id": 13,
-                "Grade": 5,
-                "Size": 25
-              }
-            ],
-            "Lecturer": {
-              "FirstName": "Felix",
-              "Id": 5,
-              "LastName": "Cole",
-              "FullName": "Felix Cole"
-            },
-            "Requirements": [
-              4,
-              3,
-              2,
-              5
-            ]
-          },
-          "Id": 68
-        }
-      ]
-    },
-    {
-      "StartTime": "11:15",
-      "EndTime": "12:45",
-      "Weekday": "monday",
-      "Number": 2,
-      "Elements": [
         {
           "Room": {
             "Name": "i0.16",
@@ -643,21 +806,9 @@
             "Size": 120
           },
           "Course": {
-            "Size": 120,
-            "Name": "Grundlagen Mediengestaltung",
+            "Size": 40,
+            "Name": "Programmieren",
             "Semesters": [
-              {
-                "Major": "MIB",
-                "Id": 1,
-                "Grade": 1,
-                "Size": 40
-              },
-              {
-                "Major": "MKB",
-                "Id": 2,
-                "Grade": 1,
-                "Size": 40
-              },
               {
                 "Major": "OMB",
                 "Id": 3,
@@ -666,10 +817,10 @@
               }
             ],
             "Lecturer": {
-              "FirstName": "Markus",
-              "Id": 6,
-              "LastName": "Mehler",
-              "FullName": "Markus Mehler"
+              "FirstName": "Erik",
+              "Id": 19,
+              "LastName": "Seiler",
+              "FullName": "Erik Seiler"
             },
             "Requirements": [
               4,
@@ -678,7 +829,7 @@
               5
             ]
           },
-          "Id": 3
+          "Id": 66
         },
         {
           "Room": {
@@ -728,7 +879,15 @@
             ]
           },
           "Id": 8
-        },
+        }
+      ]
+    },
+    {
+      "StartTime": "7:45",
+      "EndTime": "9:15",
+      "Weekday": "tuesday",
+      "Number": 3,
+      "Elements": [
         {
           "Room": {
             "Name": "l1.05",
@@ -742,7 +901,7 @@
           },
           "Course": {
             "Size": 28,
-            "Name": "E-Learning und Online-Learning Praktikum",
+            "Name": "E-Learning und Online-Learning",
             "Semesters": [
               {
                 "Major": "MKB",
@@ -764,7 +923,7 @@
               5
             ]
           },
-          "Id": 46
+          "Id": 38
         },
         {
           "Room": {
@@ -779,44 +938,7 @@
           },
           "Course": {
             "Size": 28,
-            "Name": "E-Business",
-            "Semesters": [
-              {
-                "Major": "OMB",
-                "Id": 12,
-                "Grade": 4,
-                "Size": 28
-              }
-            ],
-            "Lecturer": {
-              "FirstName": "Markus",
-              "Id": 14,
-              "LastName": "Richter",
-              "FullName": "Markus Richter"
-            },
-            "Requirements": [
-              4,
-              3,
-              2,
-              5
-            ]
-          },
-          "Id": 54
-        },
-        {
-          "Room": {
-            "Name": "i0.13",
-            "Equipment": [
-              4,
-              3,
-              2,
-              5
-            ],
-            "Size": 60
-          },
-          "Course": {
-            "Size": 28,
-            "Name": "Kommunikationssysteme Praktikum",
+            "Name": "Kommunikationssysteme",
             "Semesters": [
               {
                 "Major": "MIB",
@@ -838,23 +960,59 @@
               5
             ]
           },
-          "Id": 57
+          "Id": 49
         },
         {
           "Room": {
-            "Name": "l2.08",
+            "Name": "i0.13",
             "Equipment": [
               4,
               3,
               2,
-              5,
-              0
+              5
             ],
-            "Size": 25
+            "Size": 60
           },
           "Course": {
             "Size": 25,
-            "Name": "Interface Design Praktikum",
+            "Name": "Verteilte Anwendungen",
+            "Semesters": [
+              {
+                "Major": "MIB",
+                "Id": 13,
+                "Grade": 5,
+                "Size": 25
+              }
+            ],
+            "Lecturer": {
+              "FirstName": "Felix",
+              "Id": 5,
+              "LastName": "Cole",
+              "FullName": "Felix Cole"
+            },
+            "Requirements": [
+              4,
+              3,
+              2,
+              5
+            ]
+          },
+          "Id": 60
+        },
+        {
+          "Room": {
+            "Name": "i0.14",
+            "Equipment": [
+              4,
+              3,
+              2,
+              5
+            ],
+            "Size": 60
+          },
+          "Course": {
+            "Size": 25,
+            "Name": "Interface Design",
             "Semesters": [
               {
                 "Major": "OMB",
@@ -873,57 +1031,11 @@
               4,
               3,
               2,
-              5,
-              0
+              5
             ]
           },
-          "Id": 65
+          "Id": 62
         },
-        {
-          "Room": {
-            "Name": "i0.14",
-            "Equipment": [
-              4,
-              3,
-              2,
-              5
-            ],
-            "Size": 60
-          },
-          "Course": {
-            "Size": 25,
-            "Name": "Digitale AV-Technik",
-            "Semesters": [
-              {
-                "Major": "MIB",
-                "Id": 13,
-                "Grade": 5,
-                "Size": 25
-              }
-            ],
-            "Lecturer": {
-              "FirstName": "Stephan",
-              "Id": 9,
-              "LastName": "Pfeiffer",
-              "FullName": "Stephan Pfeiffer"
-            },
-            "Requirements": [
-              4,
-              3,
-              2,
-              5
-            ]
-          },
-          "Id": 67
-        }
-      ]
-    },
-    {
-      "StartTime": "7:45",
-      "EndTime": "9:15",
-      "Weekday": "tuesday",
-      "Number": 3,
-      "Elements": [
         {
           "Room": {
             "Name": "i0.16",
@@ -1021,7 +1133,15 @@
             ]
           },
           "Id": 9
-        },
+        }
+      ]
+    },
+    {
+      "StartTime": "9:30",
+      "EndTime": "11:00",
+      "Weekday": "tuesday",
+      "Number": 4,
+      "Elements": [
         {
           "Room": {
             "Name": "l1.05",
@@ -1035,7 +1155,7 @@
           },
           "Course": {
             "Size": 28,
-            "Name": "E-Learning und Online-Learning",
+            "Name": "Ideenentwicklung",
             "Semesters": [
               {
                 "Major": "MKB",
@@ -1045,10 +1165,10 @@
               }
             ],
             "Lecturer": {
-              "FirstName": "Uwe",
-              "Id": 4,
-              "LastName": "Freud",
-              "FullName": "Uwe Freud"
+              "FirstName": "Markus",
+              "Id": 6,
+              "LastName": "Mehler",
+              "FullName": "Markus Mehler"
             },
             "Requirements": [
               4,
@@ -1057,7 +1177,7 @@
               5
             ]
           },
-          "Id": 47
+          "Id": 39
         },
         {
           "Room": {
@@ -1072,7 +1192,45 @@
           },
           "Course": {
             "Size": 28,
-            "Name": "Kommunikationssysteme",
+            "Name": "Responsive Web Design",
+            "Semesters": [
+              {
+                "Major": "OMB",
+                "Id": 12,
+                "Grade": 4,
+                "Size": 28
+              }
+            ],
+            "Lecturer": {
+              "FirstName": "Florian",
+              "Id": 11,
+              "LastName": "Muench",
+              "FullName": "Florian Muench"
+            },
+            "Requirements": [
+              4,
+              3,
+              2,
+              5
+            ]
+          },
+          "Id": 41
+        },
+        {
+          "Room": {
+            "Name": "i1.17",
+            "Equipment": [
+              4,
+              3,
+              2,
+              5,
+              0
+            ],
+            "Size": 40
+          },
+          "Course": {
+            "Size": 28,
+            "Name": "Graphische Datenverarbeitung Praktikum",
             "Semesters": [
               {
                 "Major": "MIB",
@@ -1082,102 +1240,21 @@
               }
             ],
             "Lecturer": {
-              "FirstName": "Marko",
-              "Id": 2,
-              "LastName": "Kaufmann",
-              "FullName": "Marko Kaufmann"
+              "FirstName": "Sebastian",
+              "Id": 20,
+              "LastName": "Gaertner",
+              "FullName": "Sebastian Gaertner"
             },
             "Requirements": [
               4,
               3,
               2,
-              5
+              5,
+              0
             ]
           },
-          "Id": 58
+          "Id": 50
         },
-        {
-          "Room": {
-            "Name": "i0.13",
-            "Equipment": [
-              4,
-              3,
-              2,
-              5
-            ],
-            "Size": 60
-          },
-          "Course": {
-            "Size": 25,
-            "Name": "Verteilte Anwendungen",
-            "Semesters": [
-              {
-                "Major": "MIB",
-                "Id": 13,
-                "Grade": 5,
-                "Size": 25
-              }
-            ],
-            "Lecturer": {
-              "FirstName": "Felix",
-              "Id": 5,
-              "LastName": "Cole",
-              "FullName": "Felix Cole"
-            },
-            "Requirements": [
-              4,
-              3,
-              2,
-              5
-            ]
-          },
-          "Id": 69
-        },
-        {
-          "Room": {
-            "Name": "i0.14",
-            "Equipment": [
-              4,
-              3,
-              2,
-              5
-            ],
-            "Size": 60
-          },
-          "Course": {
-            "Size": 25,
-            "Name": "Interface Design",
-            "Semesters": [
-              {
-                "Major": "OMB",
-                "Id": 15,
-                "Grade": 5,
-                "Size": 25
-              }
-            ],
-            "Lecturer": {
-              "FirstName": "Max",
-              "Id": 26,
-              "LastName": "Engenhart",
-              "FullName": "Max Engenhart"
-            },
-            "Requirements": [
-              4,
-              3,
-              2,
-              5
-            ]
-          },
-          "Id": 71
-        }
-      ]
-    },
-    {
-      "StartTime": "9:30",
-      "EndTime": "11:00",
-      "Weekday": "tuesday",
-      "Number": 4,
-      "Elements": [
         {
           "Room": {
             "Name": "i0.16",
@@ -1275,119 +1352,6 @@
             ]
           },
           "Id": 10
-        },
-        {
-          "Room": {
-            "Name": "l1.05",
-            "Equipment": [
-              4,
-              3,
-              2,
-              5
-            ],
-            "Size": 40
-          },
-          "Course": {
-            "Size": 28,
-            "Name": "Ideenentwicklung",
-            "Semesters": [
-              {
-                "Major": "MKB",
-                "Id": 11,
-                "Grade": 4,
-                "Size": 28
-              }
-            ],
-            "Lecturer": {
-              "FirstName": "Markus",
-              "Id": 6,
-              "LastName": "Mehler",
-              "FullName": "Markus Mehler"
-            },
-            "Requirements": [
-              4,
-              3,
-              2,
-              5
-            ]
-          },
-          "Id": 48
-        },
-        {
-          "Room": {
-            "Name": "l2.05",
-            "Equipment": [
-              4,
-              3,
-              2,
-              5
-            ],
-            "Size": 40
-          },
-          "Course": {
-            "Size": 28,
-            "Name": "Responsive Web Design",
-            "Semesters": [
-              {
-                "Major": "OMB",
-                "Id": 12,
-                "Grade": 4,
-                "Size": 28
-              }
-            ],
-            "Lecturer": {
-              "FirstName": "Florian",
-              "Id": 11,
-              "LastName": "Muench",
-              "FullName": "Florian Muench"
-            },
-            "Requirements": [
-              4,
-              3,
-              2,
-              5
-            ]
-          },
-          "Id": 50
-        },
-        {
-          "Room": {
-            "Name": "i1.17",
-            "Equipment": [
-              4,
-              3,
-              2,
-              5,
-              0
-            ],
-            "Size": 40
-          },
-          "Course": {
-            "Size": 28,
-            "Name": "Graphische Datenverarbeitung Praktikum",
-            "Semesters": [
-              {
-                "Major": "MIB",
-                "Id": 10,
-                "Grade": 4,
-                "Size": 28
-              }
-            ],
-            "Lecturer": {
-              "FirstName": "Sebastian",
-              "Id": 20,
-              "LastName": "Gaertner",
-              "FullName": "Sebastian Gaertner"
-            },
-            "Requirements": [
-              4,
-              3,
-              2,
-              5,
-              0
-            ]
-          },
-          "Id": 59
         }
       ]
     },
@@ -1445,49 +1409,6 @@
             ]
           },
           "Id": 11
-        },
-        {
-          "Room": {
-            "Name": "i0.15",
-            "Equipment": [
-              4,
-              3,
-              2,
-              5
-            ],
-            "Size": 80
-          },
-          "Course": {
-            "Size": 80,
-            "Name": "Audiotechnik",
-            "Semesters": [
-              {
-                "Major": "MIB",
-                "Id": 1,
-                "Grade": 1,
-                "Size": 40
-              },
-              {
-                "Major": "OMB",
-                "Id": 3,
-                "Grade": 1,
-                "Size": 40
-              }
-            ],
-            "Lecturer": {
-              "FirstName": "Mario",
-              "Id": 15,
-              "LastName": "Hoffmann",
-              "FullName": "Mario Hoffmann"
-            },
-            "Requirements": [
-              4,
-              3,
-              2,
-              5
-            ]
-          },
-          "Id": 12
         },
         {
           "Room": {
@@ -1563,44 +1484,7 @@
               0
             ]
           },
-          "Id": 31
-        },
-        {
-          "Room": {
-            "Name": "l2.05",
-            "Equipment": [
-              4,
-              3,
-              2,
-              5
-            ],
-            "Size": 40
-          },
-          "Course": {
-            "Size": 35,
-            "Name": "Geometrische und statische Modellierung Praktikum",
-            "Semesters": [
-              {
-                "Major": "OMB",
-                "Id": 6,
-                "Grade": 2,
-                "Size": 35
-              }
-            ],
-            "Lecturer": {
-              "FirstName": "Melania",
-              "Id": 12,
-              "LastName": "Dolgorukova",
-              "FullName": "Melania Dolgorukova"
-            },
-            "Requirements": [
-              4,
-              3,
-              2,
-              5
-            ]
-          },
-          "Id": 32
+          "Id": 25
         },
         {
           "Room": {
@@ -1639,7 +1523,7 @@
               0
             ]
           },
-          "Id": 40
+          "Id": 32
         },
         {
           "Room": {
@@ -1676,7 +1560,87 @@
               5
             ]
           },
-          "Id": 62
+          "Id": 53
+        },
+        {
+          "Room": {
+            "Name": "i0.15",
+            "Equipment": [
+              4,
+              3,
+              2,
+              5
+            ],
+            "Size": 80
+          },
+          "Course": {
+            "Size": 80,
+            "Name": "Audiotechnik",
+            "Semesters": [
+              {
+                "Major": "MIB",
+                "Id": 1,
+                "Grade": 1,
+                "Size": 40
+              },
+              {
+                "Major": "OMB",
+                "Id": 3,
+                "Grade": 1,
+                "Size": 40
+              }
+            ],
+            "Lecturer": {
+              "FirstName": "Mario",
+              "Id": 15,
+              "LastName": "Hoffmann",
+              "FullName": "Mario Hoffmann"
+            },
+            "Requirements": [
+              4,
+              3,
+              2,
+              5
+            ]
+          },
+          "Id": 12
+        },
+        {
+          "Room": {
+            "Name": "l2.05",
+            "Equipment": [
+              4,
+              3,
+              2,
+              5
+            ],
+            "Size": 40
+          },
+          "Course": {
+            "Size": 35,
+            "Name": "Geometrische und statische Modellierung Praktikum",
+            "Semesters": [
+              {
+                "Major": "OMB",
+                "Id": 6,
+                "Grade": 2,
+                "Size": 35
+              }
+            ],
+            "Lecturer": {
+              "FirstName": "Melania",
+              "Id": 12,
+              "LastName": "Dolgorukova",
+              "FullName": "Melania Dolgorukova"
+            },
+            "Requirements": [
+              4,
+              3,
+              2,
+              5
+            ]
+          },
+          "Id": 26
         }
       ]
     },
@@ -1686,6 +1650,230 @@
       "Weekday": "wednesday",
       "Number": 6,
       "Elements": [
+        {
+          "Room": {
+            "Name": "l1.05",
+            "Equipment": [
+              4,
+              3,
+              2,
+              5
+            ],
+            "Size": 40
+          },
+          "Course": {
+            "Size": 40,
+            "Name": "Medienanalyse",
+            "Semesters": [
+              {
+                "Major": "MKB",
+                "Id": 2,
+                "Grade": 1,
+                "Size": 40
+              }
+            ],
+            "Lecturer": {
+              "FirstName": "Markus",
+              "Id": 6,
+              "LastName": "Mehler",
+              "FullName": "Markus Mehler"
+            },
+            "Requirements": [
+              4,
+              3,
+              2,
+              5
+            ]
+          },
+          "Id": 20
+        },
+        {
+          "Room": {
+            "Name": "l2.05",
+            "Equipment": [
+              4,
+              3,
+              2,
+              5
+            ],
+            "Size": 40
+          },
+          "Course": {
+            "Size": 40,
+            "Name": "Programmieren",
+            "Semesters": [
+              {
+                "Major": "MIB",
+                "Id": 1,
+                "Grade": 1,
+                "Size": 40
+              }
+            ],
+            "Lecturer": {
+              "FirstName": "Felix",
+              "Id": 5,
+              "LastName": "Cole",
+              "FullName": "Felix Cole"
+            },
+            "Requirements": [
+              4,
+              3,
+              2,
+              5
+            ]
+          },
+          "Id": 21
+        },
+        {
+          "Room": {
+            "Name": "i0.13",
+            "Equipment": [
+              4,
+              3,
+              2,
+              5
+            ],
+            "Size": 60
+          },
+          "Course": {
+            "Size": 35,
+            "Name": "Grundlagen Interaktiver Systeme",
+            "Semesters": [
+              {
+                "Major": "MIB",
+                "Id": 4,
+                "Grade": 2,
+                "Size": 35
+              }
+            ],
+            "Lecturer": {
+              "FirstName": "Frank",
+              "Id": 24,
+              "LastName": "Junker",
+              "FullName": "Frank Junker"
+            },
+            "Requirements": [
+              4,
+              3,
+              2,
+              5
+            ]
+          },
+          "Id": 29
+        },
+        {
+          "Room": {
+            "Name": "i0.14",
+            "Equipment": [
+              4,
+              3,
+              2,
+              5
+            ],
+            "Size": 60
+          },
+          "Course": {
+            "Size": 28,
+            "Name": "Konzeption",
+            "Semesters": [
+              {
+                "Major": "MKB",
+                "Id": 11,
+                "Grade": 4,
+                "Size": 28
+              }
+            ],
+            "Lecturer": {
+              "FirstName": "Antje",
+              "Id": 7,
+              "LastName": "Papst",
+              "FullName": "Antje Papst"
+            },
+            "Requirements": [
+              4,
+              3,
+              2,
+              5
+            ]
+          },
+          "Id": 40
+        },
+        {
+          "Room": {
+            "Name": "i1.17",
+            "Equipment": [
+              4,
+              3,
+              2,
+              5,
+              0
+            ],
+            "Size": 40
+          },
+          "Course": {
+            "Size": 28,
+            "Name": "Responsive Web Design Praktikum",
+            "Semesters": [
+              {
+                "Major": "OMB",
+                "Id": 12,
+                "Grade": 4,
+                "Size": 28
+              }
+            ],
+            "Lecturer": {
+              "FirstName": "Florian",
+              "Id": 11,
+              "LastName": "Muench",
+              "FullName": "Florian Muench"
+            },
+            "Requirements": [
+              4,
+              3,
+              2,
+              5,
+              0
+            ]
+          },
+          "Id": 43
+        },
+        {
+          "Room": {
+            "Name": "l1.06",
+            "Equipment": [
+              4,
+              3,
+              2,
+              5
+            ],
+            "Size": 60
+          },
+          "Course": {
+            "Size": 28,
+            "Name": "Graphische Datenverarbeitung",
+            "Semesters": [
+              {
+                "Major": "MIB",
+                "Id": 10,
+                "Grade": 4,
+                "Size": 28
+              }
+            ],
+            "Lecturer": {
+              "FirstName": "Sebastian",
+              "Id": 20,
+              "LastName": "Gaertner",
+              "FullName": "Sebastian Gaertner"
+            },
+            "Requirements": [
+              4,
+              3,
+              2,
+              5
+            ]
+          },
+          "Id": 51
+        },
         {
           "Room": {
             "Name": "i0.15",
@@ -1765,6 +1953,45 @@
             ]
           },
           "Id": 17
+        }
+      ]
+    },
+    {
+      "StartTime": "9:30",
+      "EndTime": "11:00",
+      "Weekday": "wednesday",
+      "Number": 7,
+      "Elements": [
+        {
+          "Room": {
+            "Name": "studio",
+            "Equipment": [
+              1
+            ],
+            "Size": 40
+          },
+          "Course": {
+            "Size": 40,
+            "Name": "Medientechnik Praktikum",
+            "Semesters": [
+              {
+                "Major": "MKB",
+                "Id": 2,
+                "Grade": 1,
+                "Size": 40
+              }
+            ],
+            "Lecturer": {
+              "FirstName": "Sebastian",
+              "Id": 20,
+              "LastName": "Gaertner",
+              "FullName": "Sebastian Gaertner"
+            },
+            "Requirements": [
+              1
+            ]
+          },
+          "Id": 22
         },
         {
           "Room": {
@@ -1778,21 +2005,21 @@
             "Size": 40
           },
           "Course": {
-            "Size": 40,
-            "Name": "Medienanalyse",
+            "Size": 35,
+            "Name": "Mathematik und Simulation Praktikum",
             "Semesters": [
               {
-                "Major": "MKB",
-                "Id": 2,
-                "Grade": 1,
-                "Size": 40
+                "Major": "MIB",
+                "Id": 4,
+                "Grade": 2,
+                "Size": 35
               }
             ],
             "Lecturer": {
-              "FirstName": "Markus",
-              "Id": 6,
-              "LastName": "Mehler",
-              "FullName": "Markus Mehler"
+              "FirstName": "Melania",
+              "Id": 12,
+              "LastName": "Dolgorukova",
+              "FullName": "Melania Dolgorukova"
             },
             "Requirements": [
               4,
@@ -1801,7 +2028,7 @@
               5
             ]
           },
-          "Id": 20
+          "Id": 30
         },
         {
           "Room": {
@@ -1815,95 +2042,21 @@
             "Size": 40
           },
           "Course": {
-            "Size": 40,
-            "Name": "Programmieren",
-            "Semesters": [
-              {
-                "Major": "MIB",
-                "Id": 1,
-                "Grade": 1,
-                "Size": 40
-              }
-            ],
-            "Lecturer": {
-              "FirstName": "Felix",
-              "Id": 5,
-              "LastName": "Cole",
-              "FullName": "Felix Cole"
-            },
-            "Requirements": [
-              4,
-              3,
-              2,
-              5
-            ]
-          },
-          "Id": 22
-        },
-        {
-          "Room": {
-            "Name": "i0.13",
-            "Equipment": [
-              4,
-              3,
-              2,
-              5
-            ],
-            "Size": 60
-          },
-          "Course": {
-            "Size": 35,
-            "Name": "Grundlagen Interaktiver Systeme",
-            "Semesters": [
-              {
-                "Major": "MIB",
-                "Id": 4,
-                "Grade": 2,
-                "Size": 35
-              }
-            ],
-            "Lecturer": {
-              "FirstName": "Frank",
-              "Id": 24,
-              "LastName": "Junker",
-              "FullName": "Frank Junker"
-            },
-            "Requirements": [
-              4,
-              3,
-              2,
-              5
-            ]
-          },
-          "Id": 36
-        },
-        {
-          "Room": {
-            "Name": "i0.14",
-            "Equipment": [
-              4,
-              3,
-              2,
-              5
-            ],
-            "Size": 60
-          },
-          "Course": {
             "Size": 28,
-            "Name": "Konzeption",
+            "Name": "Webtechnologie",
             "Semesters": [
               {
-                "Major": "MKB",
-                "Id": 11,
+                "Major": "OMB",
+                "Id": 12,
                 "Grade": 4,
                 "Size": 28
               }
             ],
             "Lecturer": {
-              "FirstName": "Antje",
-              "Id": 7,
-              "LastName": "Papst",
-              "FullName": "Antje Papst"
+              "FirstName": "Marko",
+              "Id": 2,
+              "LastName": "Kaufmann",
+              "FullName": "Marko Kaufmann"
             },
             "Requirements": [
               4,
@@ -1912,11 +2065,11 @@
               5
             ]
           },
-          "Id": 49
+          "Id": 52
         },
         {
           "Room": {
-            "Name": "i1.17",
+            "Name": "l2.08",
             "Equipment": [
               4,
               3,
@@ -1924,17 +2077,17 @@
               5,
               0
             ],
-            "Size": 40
+            "Size": 25
           },
           "Course": {
-            "Size": 28,
-            "Name": "Responsive Web Design Praktikum",
+            "Size": 25,
+            "Name": "Interface Design Praktikum",
             "Semesters": [
               {
-                "Major": "OMB",
-                "Id": 12,
-                "Grade": 4,
-                "Size": 28
+                "Major": "MKB",
+                "Id": 14,
+                "Grade": 5,
+                "Size": 25
               }
             ],
             "Lecturer": {
@@ -1951,53 +2104,8 @@
               0
             ]
           },
-          "Id": 52
+          "Id": 61
         },
-        {
-          "Room": {
-            "Name": "l1.06",
-            "Equipment": [
-              4,
-              3,
-              2,
-              5
-            ],
-            "Size": 60
-          },
-          "Course": {
-            "Size": 28,
-            "Name": "Graphische Datenverarbeitung",
-            "Semesters": [
-              {
-                "Major": "MIB",
-                "Id": 10,
-                "Grade": 4,
-                "Size": 28
-              }
-            ],
-            "Lecturer": {
-              "FirstName": "Sebastian",
-              "Id": 20,
-              "LastName": "Gaertner",
-              "FullName": "Sebastian Gaertner"
-            },
-            "Requirements": [
-              4,
-              3,
-              2,
-              5
-            ]
-          },
-          "Id": 60
-        }
-      ]
-    },
-    {
-      "StartTime": "9:30",
-      "EndTime": "11:00",
-      "Weekday": "wednesday",
-      "Number": 7,
-      "Elements": [
         {
           "Room": {
             "Name": "i0.15",
@@ -2083,18 +2191,30 @@
             ]
           },
           "Id": 18
-        },
+        }
+      ]
+    },
+    {
+      "StartTime": "11:15",
+      "EndTime": "12:45",
+      "Weekday": "wednesday",
+      "Number": 8,
+      "Elements": [
         {
           "Room": {
-            "Name": "studio",
+            "Name": "i1.17",
             "Equipment": [
-              1
+              4,
+              3,
+              2,
+              5,
+              0
             ],
             "Size": 40
           },
           "Course": {
             "Size": 40,
-            "Name": "Medientechnik Praktikum",
+            "Name": "Entwicklung Interaktiver Anwendungen Praktikum",
             "Semesters": [
               {
                 "Major": "MKB",
@@ -2104,53 +2224,20 @@
               }
             ],
             "Lecturer": {
-              "FirstName": "Sebastian",
-              "Id": 20,
-              "LastName": "Gaertner",
-              "FullName": "Sebastian Gaertner"
+              "FirstName": "Thorsten",
+              "Id": 22,
+              "LastName": "Schulze",
+              "FullName": "Thorsten Schulze"
             },
             "Requirements": [
-              1
+              4,
+              3,
+              2,
+              5,
+              0
             ]
           },
           "Id": 23
-        },
-        {
-          "Room": {
-            "Name": "l1.05",
-            "Equipment": [
-              4,
-              3,
-              2,
-              5
-            ],
-            "Size": 40
-          },
-          "Course": {
-            "Size": 35,
-            "Name": "Mathematik und Simulation Praktikum",
-            "Semesters": [
-              {
-                "Major": "MIB",
-                "Id": 4,
-                "Grade": 2,
-                "Size": 35
-              }
-            ],
-            "Lecturer": {
-              "FirstName": "Melania",
-              "Id": 12,
-              "LastName": "Dolgorukova",
-              "FullName": "Melania Dolgorukova"
-            },
-            "Requirements": [
-              4,
-              3,
-              2,
-              5
-            ]
-          },
-          "Id": 37
         },
         {
           "Room": {
@@ -2164,21 +2251,21 @@
             "Size": 40
           },
           "Course": {
-            "Size": 28,
-            "Name": "Webtechnologie",
+            "Size": 35,
+            "Name": "Entwicklung Interaktiver Anwendungen II",
             "Semesters": [
               {
-                "Major": "OMB",
-                "Id": 12,
-                "Grade": 4,
-                "Size": 28
+                "Major": "MKB",
+                "Id": 5,
+                "Grade": 2,
+                "Size": 35
               }
             ],
             "Lecturer": {
-              "FirstName": "Marko",
-              "Id": 2,
-              "LastName": "Kaufmann",
-              "FullName": "Marko Kaufmann"
+              "FirstName": "Eric",
+              "Id": 3,
+              "LastName": "Schroeder",
+              "FullName": "Eric Schroeder"
             },
             "Requirements": [
               4,
@@ -2187,11 +2274,11 @@
               5
             ]
           },
-          "Id": 61
+          "Id": 33
         },
         {
           "Room": {
-            "Name": "l2.08",
+            "Name": "i1.19",
             "Equipment": [
               4,
               3,
@@ -2199,24 +2286,24 @@
               5,
               0
             ],
-            "Size": 25
+            "Size": 40
           },
           "Course": {
-            "Size": 25,
-            "Name": "Interface Design Praktikum",
+            "Size": 35,
+            "Name": "Computergrafik und 3D Modellierung Praktikum",
             "Semesters": [
               {
-                "Major": "MKB",
-                "Id": 14,
-                "Grade": 5,
-                "Size": 25
+                "Major": "MIB",
+                "Id": 4,
+                "Grade": 2,
+                "Size": 35
               }
             ],
             "Lecturer": {
-              "FirstName": "Florian",
-              "Id": 11,
-              "LastName": "Muench",
-              "FullName": "Florian Muench"
+              "FirstName": "Thorsten",
+              "Id": 13,
+              "LastName": "Kaiser",
+              "FullName": "Thorsten Kaiser"
             },
             "Requirements": [
               4,
@@ -2226,16 +2313,8 @@
               0
             ]
           },
-          "Id": 70
-        }
-      ]
-    },
-    {
-      "StartTime": "11:15",
-      "EndTime": "12:45",
-      "Weekday": "wednesday",
-      "Number": 8,
-      "Elements": [
+          "Id": 34
+        },
         {
           "Room": {
             "Name": "i0.15",
@@ -2281,45 +2360,6 @@
         },
         {
           "Room": {
-            "Name": "i1.17",
-            "Equipment": [
-              4,
-              3,
-              2,
-              5,
-              0
-            ],
-            "Size": 40
-          },
-          "Course": {
-            "Size": 40,
-            "Name": "Entwicklung Interaktiver Anwendungen Praktikum",
-            "Semesters": [
-              {
-                "Major": "MKB",
-                "Id": 2,
-                "Grade": 1,
-                "Size": 40
-              }
-            ],
-            "Lecturer": {
-              "FirstName": "Thorsten",
-              "Id": 22,
-              "LastName": "Schulze",
-              "FullName": "Thorsten Schulze"
-            },
-            "Requirements": [
-              4,
-              3,
-              2,
-              5,
-              0
-            ]
-          },
-          "Id": 27
-        },
-        {
-          "Room": {
             "Name": "l1.05",
             "Equipment": [
               4,
@@ -2353,7 +2393,52 @@
               5
             ]
           },
-          "Id": 33
+          "Id": 27
+        }
+      ]
+    },
+    {
+      "StartTime": "7:45",
+      "EndTime": "9:15",
+      "Weekday": "thursday",
+      "Number": 9,
+      "Elements": [
+        {
+          "Room": {
+            "Name": "l1.05",
+            "Equipment": [
+              4,
+              3,
+              2,
+              5
+            ],
+            "Size": 40
+          },
+          "Course": {
+            "Size": 40,
+            "Name": "Entwicklung Interaktiver Anwendungen",
+            "Semesters": [
+              {
+                "Major": "MKB",
+                "Id": 2,
+                "Grade": 1,
+                "Size": 40
+              }
+            ],
+            "Lecturer": {
+              "FirstName": "Thorsten",
+              "Id": 22,
+              "LastName": "Schulze",
+              "FullName": "Thorsten Schulze"
+            },
+            "Requirements": [
+              4,
+              3,
+              2,
+              5
+            ]
+          },
+          "Id": 24
         },
         {
           "Room": {
@@ -2368,45 +2453,7 @@
           },
           "Course": {
             "Size": 35,
-            "Name": "Entwicklung Interaktiver Anwendungen II",
-            "Semesters": [
-              {
-                "Major": "MKB",
-                "Id": 5,
-                "Grade": 2,
-                "Size": 35
-              }
-            ],
-            "Lecturer": {
-              "FirstName": "Eric",
-              "Id": 3,
-              "LastName": "Schroeder",
-              "FullName": "Eric Schroeder"
-            },
-            "Requirements": [
-              4,
-              3,
-              2,
-              5
-            ]
-          },
-          "Id": 41
-        },
-        {
-          "Room": {
-            "Name": "i1.19",
-            "Equipment": [
-              4,
-              3,
-              2,
-              5,
-              0
-            ],
-            "Size": 40
-          },
-          "Course": {
-            "Size": 35,
-            "Name": "Computergrafik und 3D Modellierung Praktikum",
+            "Name": "Mathematik und Simulation",
             "Semesters": [
               {
                 "Major": "MIB",
@@ -2416,29 +2463,20 @@
               }
             ],
             "Lecturer": {
-              "FirstName": "Thorsten",
-              "Id": 13,
-              "LastName": "Kaiser",
-              "FullName": "Thorsten Kaiser"
+              "FirstName": "Melania",
+              "Id": 12,
+              "LastName": "Dolgorukova",
+              "FullName": "Melania Dolgorukova"
             },
             "Requirements": [
               4,
               3,
               2,
-              5,
-              0
+              5
             ]
           },
-          "Id": 43
-        }
-      ]
-    },
-    {
-      "StartTime": "7:45",
-      "EndTime": "9:15",
-      "Weekday": "thursday",
-      "Number": 9,
-      "Elements": [
+          "Id": 31
+        },
         {
           "Room": {
             "Name": "i0.15",
@@ -2484,43 +2522,6 @@
         },
         {
           "Room": {
-            "Name": "l1.05",
-            "Equipment": [
-              4,
-              3,
-              2,
-              5
-            ],
-            "Size": 40
-          },
-          "Course": {
-            "Size": 40,
-            "Name": "Entwicklung Interaktiver Anwendungen",
-            "Semesters": [
-              {
-                "Major": "MKB",
-                "Id": 2,
-                "Grade": 1,
-                "Size": 40
-              }
-            ],
-            "Lecturer": {
-              "FirstName": "Thorsten",
-              "Id": 22,
-              "LastName": "Schulze",
-              "FullName": "Thorsten Schulze"
-            },
-            "Requirements": [
-              4,
-              3,
-              2,
-              5
-            ]
-          },
-          "Id": 28
-        },
-        {
-          "Room": {
             "Name": "i1.17",
             "Equipment": [
               4,
@@ -2556,479 +2557,9 @@
               0
             ]
           },
-          "Id": 34
-        },
-        {
-          "Room": {
-            "Name": "l2.05",
-            "Equipment": [
-              4,
-              3,
-              2,
-              5
-            ],
-            "Size": 40
-          },
-          "Course": {
-            "Size": 35,
-            "Name": "Mathematik und Simulation",
-            "Semesters": [
-              {
-                "Major": "MIB",
-                "Id": 4,
-                "Grade": 2,
-                "Size": 35
-              }
-            ],
-            "Lecturer": {
-              "FirstName": "Melania",
-              "Id": 12,
-              "LastName": "Dolgorukova",
-              "FullName": "Melania Dolgorukova"
-            },
-            "Requirements": [
-              4,
-              3,
-              2,
-              5
-            ]
-          },
-          "Id": 38
+          "Id": 28
         }
       ]
-    },
-    {
-      "StartTime": "9:30",
-      "EndTime": "11:00",
-      "Weekday": "thursday",
-      "Number": 10,
-      "Elements": [
-        {
-          "Room": {
-            "Name": "l1.05",
-            "Equipment": [
-              4,
-              3,
-              2,
-              5
-            ],
-            "Size": 40
-          },
-          "Course": {
-            "Size": 40,
-            "Name": "Programmieren",
-            "Semesters": [
-              {
-                "Major": "OMB",
-                "Id": 3,
-                "Grade": 1,
-                "Size": 40
-              }
-            ],
-            "Lecturer": {
-              "FirstName": "Erik",
-              "Id": 19,
-              "LastName": "Seiler",
-              "FullName": "Erik Seiler"
-            },
-            "Requirements": [
-              4,
-              3,
-              2,
-              5
-            ]
-          },
-          "Id": 21
-        },
-        {
-          "Room": {
-            "Name": "studio",
-            "Equipment": [
-              1
-            ],
-            "Size": 40
-          },
-          "Course": {
-            "Size": 40,
-            "Name": "Medientechnik Praktikum",
-            "Semesters": [
-              {
-                "Major": "MIB",
-                "Id": 1,
-                "Grade": 1,
-                "Size": 40
-              }
-            ],
-            "Lecturer": {
-              "FirstName": "Mario",
-              "Id": 15,
-              "LastName": "Hoffmann",
-              "FullName": "Mario Hoffmann"
-            },
-            "Requirements": [
-              1
-            ]
-          },
-          "Id": 25
-        },
-        {
-          "Room": {
-            "Name": "l2.05",
-            "Equipment": [
-              4,
-              3,
-              2,
-              5
-            ],
-            "Size": 40
-          },
-          "Course": {
-            "Size": 35,
-            "Name": "Mathematik und Simulation Seminar",
-            "Semesters": [
-              {
-                "Major": "MIB",
-                "Id": 4,
-                "Grade": 2,
-                "Size": 35
-              }
-            ],
-            "Lecturer": {
-              "FirstName": "Niklas",
-              "Id": 16,
-              "LastName": "Jung",
-              "FullName": "Niklas Jung"
-            },
-            "Requirements": [
-              4,
-              3,
-              2,
-              5
-            ]
-          },
-          "Id": 39
-        }
-      ]
-    },
-    {
-      "StartTime": "11:15",
-      "EndTime": "12:45",
-      "Weekday": "thursday",
-      "Number": 11,
-      "Elements": [
-        {
-          "Room": {
-            "Name": "studio",
-            "Equipment": [
-              1
-            ],
-            "Size": 40
-          },
-          "Course": {
-            "Size": 40,
-            "Name": "Medientechnik Praktikum",
-            "Semesters": [
-              {
-                "Major": "OMB",
-                "Id": 3,
-                "Grade": 1,
-                "Size": 40
-              }
-            ],
-            "Lecturer": {
-              "FirstName": "Sebastian",
-              "Id": 20,
-              "LastName": "Gaertner",
-              "FullName": "Sebastian Gaertner"
-            },
-            "Requirements": [
-              1
-            ]
-          },
-          "Id": 24
-        },
-        {
-          "Room": {
-            "Name": "l1.05",
-            "Equipment": [
-              4,
-              3,
-              2,
-              5
-            ],
-            "Size": 40
-          },
-          "Course": {
-            "Size": 40,
-            "Name": "Videotechnik",
-            "Semesters": [
-              {
-                "Major": "MIB",
-                "Id": 1,
-                "Grade": 1,
-                "Size": 40
-              }
-            ],
-            "Lecturer": {
-              "FirstName": "Mario",
-              "Id": 15,
-              "LastName": "Hoffmann",
-              "FullName": "Mario Hoffmann"
-            },
-            "Requirements": [
-              4,
-              3,
-              2,
-              5
-            ]
-          },
-          "Id": 26
-        },
-        {
-          "Room": {
-            "Name": "l2.05",
-            "Equipment": [
-              4,
-              3,
-              2,
-              5
-            ],
-            "Size": 40
-          },
-          "Course": {
-            "Size": 35,
-            "Name": "Grundlagen Interaktiver Systeme",
-            "Semesters": [
-              {
-                "Major": "OMB",
-                "Id": 6,
-                "Grade": 2,
-                "Size": 35
-              }
-            ],
-            "Lecturer": {
-              "FirstName": "Erik",
-              "Id": 19,
-              "LastName": "Seiler",
-              "FullName": "Erik Seiler"
-            },
-            "Requirements": [
-              4,
-              3,
-              2,
-              5
-            ]
-          },
-          "Id": 35
-        },
-        {
-          "Room": {
-            "Name": "i0.13",
-            "Equipment": [
-              4,
-              3,
-              2,
-              5
-            ],
-            "Size": 60
-          },
-          "Course": {
-            "Size": 35,
-            "Name": "Mathematische Grundlagen von Gestaltung und Computergrafik",
-            "Semesters": [
-              {
-                "Major": "MKB",
-                "Id": 5,
-                "Grade": 2,
-                "Size": 35
-              }
-            ],
-            "Lecturer": {
-              "FirstName": "Niklas",
-              "Id": 16,
-              "LastName": "Jung",
-              "FullName": "Niklas Jung"
-            },
-            "Requirements": [
-              4,
-              3,
-              2,
-              5
-            ]
-          },
-          "Id": 42
-        }
-      ]
-    },
-    {
-      "StartTime": "7:45",
-      "EndTime": "9:15",
-      "Weekday": "friday",
-      "Number": 12,
-      "Elements": [
-        {
-          "Room": {
-            "Name": "i1.17",
-            "Equipment": [
-              4,
-              3,
-              2,
-              5,
-              0
-            ],
-            "Size": 40
-          },
-          "Course": {
-            "Size": 40,
-            "Name": "Programmieren Praktikum",
-            "Semesters": [
-              {
-                "Major": "OMB",
-                "Id": 3,
-                "Grade": 1,
-                "Size": 40
-              }
-            ],
-            "Lecturer": {
-              "FirstName": "Erik",
-              "Id": 19,
-              "LastName": "Seiler",
-              "FullName": "Erik Seiler"
-            },
-            "Requirements": [
-              4,
-              3,
-              2,
-              5,
-              0
-            ]
-          },
-          "Id": 29
-        },
-        {
-          "Room": {
-            "Name": "i1.19",
-            "Equipment": [
-              4,
-              3,
-              2,
-              5,
-              0
-            ],
-            "Size": 40
-          },
-          "Course": {
-            "Size": 40,
-            "Name": "Programmieren Praktikum",
-            "Semesters": [
-              {
-                "Major": "MIB",
-                "Id": 1,
-                "Grade": 1,
-                "Size": 40
-              }
-            ],
-            "Lecturer": {
-              "FirstName": "Felix",
-              "Id": 5,
-              "LastName": "Cole",
-              "FullName": "Felix Cole"
-            },
-            "Requirements": [
-              4,
-              3,
-              2,
-              5,
-              0
-            ]
-          },
-          "Id": 30
-        }
-      ]
-    },
-    {
-      "StartTime": "9:30",
-      "EndTime": "11:00",
-      "Weekday": "friday",
-      "Number": 13,
-      "Elements": null
-    },
-    {
-      "StartTime": "11:15",
-      "EndTime": "12:45",
-      "Weekday": "friday",
-      "Number": 14,
-      "Elements": null
-    },
-    {
-      "StartTime": "14:00",
-      "EndTime": "15:30",
-      "Weekday": "monday",
-      "Number": 15,
-      "Elements": null
-    },
-    {
-      "StartTime": "15:45",
-      "EndTime": "17:15",
-      "Weekday": "monday",
-      "Number": 16,
-      "Elements": null
-    },
-    {
-      "StartTime": "14:00",
-      "EndTime": "15:30",
-      "Weekday": "tuesday",
-      "Number": 17,
-      "Elements": null
-    },
-    {
-      "StartTime": "15:45",
-      "EndTime": "17:15",
-      "Weekday": "tuesday",
-      "Number": 18,
-      "Elements": null
-    },
-    {
-      "StartTime": "14:00",
-      "EndTime": "15:30",
-      "Weekday": "wednesday",
-      "Number": 19,
-      "Elements": null
-    },
-    {
-      "StartTime": "15:45",
-      "EndTime": "17:15",
-      "Weekday": "wednesday",
-      "Number": 20,
-      "Elements": null
-    },
-    {
-      "StartTime": "14:00",
-      "EndTime": "15:30",
-      "Weekday": "thursday",
-      "Number": 21,
-      "Elements": null
-    },
-    {
-      "StartTime": "15:45",
-      "EndTime": "17:15",
-      "Weekday": "thursday",
-      "Number": 22,
-      "Elements": null
-    },
-    {
-      "StartTime": "14:00",
-      "EndTime": "15:30",
-      "Weekday": "friday",
-      "Number": 23,
-      "Elements": null
-    },
-    {
-      "StartTime": "15:45",
-      "EndTime": "17:15",
-      "Weekday": "friday",
-      "Number": 24,
-      "Elements": null
     }
   ]
 }

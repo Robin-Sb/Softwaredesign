@@ -11,7 +11,7 @@ namespace timetable
             switch(atPeriod) {
                 case 0: sortingOrder = 1;
                 break;
-                case 1:  sortingOrder = 2;
+                case 1: sortingOrder = 2;
                 break;
                 case 2: sortingOrder = 3;
                 break;
