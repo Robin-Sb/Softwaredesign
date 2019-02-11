@@ -68,5 +68,110 @@
     "Weekday": "thursday",
     "Number": 9,
     "Elements": null
+  },
+  {
+    "StartTime": "9:30",
+    "EndTime": "11:00",
+    "Weekday": "thursday",
+    "Number": 10,
+    "Elements": null
+  },
+  {
+    "StartTime": "11:15",
+    "EndTime": "12:45",
+    "Weekday": "thursday",
+    "Number": 11,
+    "Elements": null
+  },
+  {
+    "StartTime": "7:45",
+    "EndTime": "9:15",
+    "Weekday": "friday",
+    "Number": 12,
+    "Elements": null
+  },
+  {
+    "StartTime": "9:30",
+    "EndTime": "11:00",
+    "Weekday": "friday",
+    "Number": 13,
+    "Elements": null
+  },
+  {
+    "StartTime": "11:15",
+    "EndTime": "12:45",
+    "Weekday": "friday",
+    "Number": 14,
+    "Elements": null
+  },
+  {
+    "StartTime": "14:00",
+    "EndTime": "15:30",
+    "Weekday": "monday",
+    "Number": 15,
+    "Elements": null
+  },
+  {
+    "StartTime": "15:45",
+    "EndTime": "17:15",
+    "Weekday": "monday",
+    "Number": 16,
+    "Elements": null
+  },
+  {
+    "StartTime": "14:00",
+    "EndTime": "15:30",
+    "Weekday": "tuesday",
+    "Number": 17,
+    "Elements": null
+  },
+  {
+    "StartTime": "15:45",
+    "EndTime": "17:15",
+    "Weekday": "tuesday",
+    "Number": 18,
+    "Elements": null
+  },
+  {
+    "StartTime": "14:00",
+    "EndTime": "15:30",
+    "Weekday": "wednesday",
+    "Number": 19,
+    "Elements": null
+  },
+  {
+    "StartTime": "15:45",
+    "EndTime": "17:15",
+    "Weekday": "wednesday",
+    "Number": 20,
+    "Elements": null
+  },
+  {
+    "StartTime": "14:00",
+    "EndTime": "15:30",
+    "Weekday": "thursday",
+    "Number": 21,
+    "Elements": null
+  },
+  {
+    "StartTime": "15:45",
+    "EndTime": "17:15",
+    "Weekday": "thursday",
+    "Number": 22,
+    "Elements": null
+  },
+  {
+    "StartTime": "14:00",
+    "EndTime": "15:30",
+    "Weekday": "friday",
+    "Number": 23,
+    "Elements": null
+  },
+  {
+    "StartTime": "15:45",
+    "EndTime": "17:15",
+    "Weekday": "friday",
+    "Number": 24,
+    "Elements": null
   }
 ]
